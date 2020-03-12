@@ -14,4 +14,4 @@ la programación en otros lenguajes y hasta qué punto es mayor el grado de cont
 Cree un programa que muestre su nombre y la dirección de correo completa formateada en
 la forma en que normalmente lo verías en el exterior de un sobre. Su programa
 no necesita leer ninguna entrada del usuario.
-
+https://github.com/Leopoldarroyo25/ProgBasica/blob/master/1.png
