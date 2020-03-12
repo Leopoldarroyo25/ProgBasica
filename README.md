@@ -16,3 +16,8 @@ la forma en que normalmente lo verías en el exterior de un sobre. Su programa
 no necesita leer ninguna entrada del usuario.
 ![programa1](https://github.com/Leopoldarroyo25/ProgBasica/blob/master/1.png)
 Como vemos en la imagen, el comando **print** lo ocupamos para una salida de texto dando como entendido imprimir en pantalla, este va acompañado de comillas refetene a todo lo que esta dentro de las comillas es la salida de nuestro texto.
+![salida11](https://github.com/Leopoldarroyo25/ProgBasica/blob/master/11.png)
+En esta imagen se muestra nuestra salida de texto y lo que nuestro programa hace al momento de correrlo.
+## Ejercicio 2: Hola
+Escriba un programa que le pida al usuario que ingrese su nombre. El programa debe
+responda con un mensaje que diga hola al usuario, usando su nombre.
