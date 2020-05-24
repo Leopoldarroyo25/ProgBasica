@@ -35,15 +35,20 @@ Un programa que calcula el área, introduciendo el largo y el ancho en metros.
 ## Ejercicio 4: Área de un campo.
 Un programa que calcula el área de un campo y lo despliega en acres.
 ## Ejercicio 5: Depositos de botellas.
-Un programa que calcula el total de dolares de las botellas introducidas, ya sean chicas o grandes.
+En muchas jurisdicciones se agrega un pequeño depósito a los envases de bebidas para alentar a las personas para reciclarlos En una jurisdicción particular, beba recipientes de un litro o menos tienen un depósito de $ 0.10, y los recipientes de bebidas que contienen más de un litro tienen Depósito de $ 0.25.
+Escriba un programa que lea el número de contenedores de cada tamaño del usuario. Su programa debe continuar calculando y mostrando el reembolso que será recibido por devolver esos contenedores. Formatee la salida para que incluya un dólar
+firmar y siempre muestra exactamente dos decimales.
 
 ## Ejercicio 6: Impuestos y propina.
-Un programa que el ususario introduce sus alimentos y el precio, obteniendo el porcentaje de impuestos y propina del total de la cuenta.
+El programa que cree para este ejercicio comenzará leyendo el costo de una comida ordenado en un restaurante del usuario. Entonces su programa calculará el impuesto y propina para la comida. Use su tasa impositiva local cuando calcule la cantidad de impuestos adeudados. Calcule la propina como el 18 por ciento de la cantidad de comida (sin el impuesto). La salida de
+su programa debe incluir el monto de los impuestos, el monto de la propina y el total general de la comida incluye tanto el impuesto como la propina. Formatee la salida para que todos los valores se muestran con dos decimales.
 ## Ejercicio 7: Suma de los primeros numeros n enteros positivos.
-Un programa que calcula la suma de los numeros enteros positivos de un numero.
+Escriba un programa que lea un entero positivo, n, del usuario y luego muestre el suma de todos los enteros de 1 a n. La suma de los primeros n enteros positivos puede ser calculado usando la fórmula:
+sum = ((n)n+1)/2
 
 ## Ejercicio 8: Cajas de cereal.
-Un programa que calcula el peso de las cajas de cereal introducidas por el ususario.
+Un minorista en línea vende dos productos: widgets y artilugios. Cada widget pesa 75 gramos Cada artilugio pesa 112 gramos. Escribe un programa que lea el número de widgets y la cantidad de artilugios en un pedido del usuario. Entonces tu programa
+debe calcular y mostrar el peso total de la orden.
 ## Ejercicio 9: Interés compuesto.
 Un programa que calcula el interes del estado de cuenta para tres años de un usuario.
 ## Ejercicio 10: Aritmética.
