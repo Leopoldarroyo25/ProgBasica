@@ -165,40 +165,40 @@ Escriba un programa que comience leyendo una temperatura del usuario en grados C
 ![](Programa29(2).png)
 ## Ejercicio 30: Unidades de presión.
 En este ejercicio creará un programa que lee la presión del usuario en kilopascales. Una vez que se haya leído la presión, su programa debe informar la presión equivalente en libras por pulgada cuadrada, milímetros de mercurio y atmósferas. Usa tus habilidades de investigación para determinar los factores de conversión entre estas unidades.
-![](Programa30.png)
+![](Programa30(1).png)
 ![](Programa30(2).png)
 ## Ejercicio 31: Suma de los dígitos en un entero.
 Desarrolle un programa que lea un número entero de cuatro dígitos del usuario y muestre la suma de los dígitos en el número. Por ejemplo, si el usuario ingresa 3141, entonces su programa debería mostrar 3 + 1 + 4 + 1 = 9.
-![](Programa31.png)
+![](Programa31(1).png)
 ![](Programa31(2).png)
 ## Ejercicio 32: Ordenar 3 enteros.
 Cree un programa que lea tres enteros del usuario y los muestre en orden ordenado (de menor a mayor). Use las funciones min y max para encontrar los valores más pequeños y más grandes. El valor medio se puede encontrar calculando la suma de los tres valores y luego restando el valor mínimo y el valor máximo
-![](Programa32.png)
+![](Programa32(1).png)
 ![](Programa32(2).png)
 ## Ejercicio 33: Pan de un día.
 Una panadería vende hogazas de pan por $ 3.49 cada una. El pan de un día tiene un descuento del 60 por ciento. Escriba un programa que comience leyendo la cantidad de hogazas de pan de un día compradas al usuario. Luego, su programa debe mostrar el precio regular del pan, el descuento porque tiene un día de antigüedad y el precio total. Todos los valores deben mostrarse con dos decimales, y los puntos decimales en todos los números deben alinearse cuando el usuario ingresa valores razonables
-![](Programa33.png)
+![](Programa33(1).png)
 ![](Programa33(2).png)
 ## Ejercicio 34: ¿Par o impar?.
 Escriba un programa que lea un número entero del usuario. Luego, su programa debe mostrar un mensaje que indique si el número entero es par o impar.
-![](Programa34.png)
+![](Programa34(1).png)
 ![](Programa34(2).png)
 ## Ejercicio 35: Años de perro.
 Se dice comúnmente que un año humano es equivalente a 7 años de perro. Sin embargo, esta simple conversión no reconoce que los perros alcanzan la edad adulta en aproximadamente dos años. Como resultado, algunas personas creen que es mejor contar cada uno de los primeros dos años humanos como 10.5 años de perro, y luego contar cada año humano adicional como 4 años de perro.
 Escriba un programa que implemente la conversión de años humanos a años de perros descritos en el párrafo anterior. Asegúrese de que su programa funcione correctamente para conversiones de menos de dos años humanos y para conversiones de dos o más años humanos. Su programa debe mostrar un mensaje de error apropiado si el usuario ingresa un número negativo.
-![](Programa35.png)
+![](Programa35(1).png)
 ![](Programa35(2).png)
 ## Ejercicio 36: Vocal o Consonante.
 En este ejercicio creará un programa que lee una letra del alfabeto del usuario. Si el usuario ingresa a, e, i, o u, entonces su programa debe mostrar un mensaje que indica que la letra ingresada es una vocal. Si el usuario ingresa y, entonces su programa debería mostrar un mensaje que indica que a veces y es una vocal, y a veces y es una consonante. De lo contrario, su programa debería mostrar un mensaje que indica que la letra es una consonante.
-![](Programa36.png)
+![](Programa36(1).png)
 ![](Programa36(2).png)
 ## Ejercicio 37: Nombra esa forma.
 Escriba un programa que determine el nombre de una forma a partir de su número de lados. Lea el número de lados del usuario y luego informe el nombre apropiado como parte de un mensaje significativo. Su programa debe admitir formas con desde 3 hasta (e incluyendo) 10 lados. Si se ingresa un número de lados fuera de este rango, entonces su programa debería mostrar un mensaje de error apropiado.
-![](Programa37.png)
+![](Programa37(1).png)
 ![](Programa37(2).png)
 ## Ejercicio 38: Nombre del mes a la cantidad de días.
 La duración de un mes varía de 28 a 31 días. En este ejercicio creará un programa que lee el nombre de un mes del usuario como una cadena. Luego, su programa debería mostrar la cantidad de días en ese mes. Muestre “28 o 29 días” para febrero para que se aborden los años bisiestos.
-![](Programa38.png)
+![](Programa38(1).png)
 ![](Programa38(2).png)
 ## Ejercicio 39: Niveles de sonido.
 La siguiente tabla enumera el nivel de sonido en decibelios para varios ruidos comunes.
@@ -211,7 +211,7 @@ Escriba un programa que lea un nivel de sonido en decibelios del usuario. Si el 
 ![](Programa39(2).png)
 ## Ejercicio 40: Nombra ese triángulo.
 Un triángulo se puede clasificar en función de la longitud de sus lados como equilátero, isósceles o escaleno. Los 3 lados de un triángulo equilátero tienen la misma longitud. Un triángulo isósceles tiene dos lados que tienen la misma longitud y un tercer lado que tiene una longitud diferente. Si todos los lados tienen diferentes longitudes, entonces el triángulo es escaleno. Escriba un programa que lea las longitudes de 3 lados de un triángulo del usuario. Mostrar un mensaje que indique el tipo de triángulo
-![](Programa40.png)
+![](Programa40(1).png)
 ![](Programa40(2).png)
 ## Ejercicio 41: Nota a frecuencia.
 La siguiente tabla enumera una octava de notas musicales, comenzando con C central, junto con sus frecuencias.
@@ -223,11 +223,11 @@ G4 392.00hz
 A4 440.00hz
  B4 493.88hz
 Comience escribiendo un programa que lea el nombre de una nota del usuario y muestre la frecuencia de la nota. Su programa debe admitir todas las notas enumeradas anteriormente. Una vez que tenga su programa funcionando correctamente para las notas enumeradas anteriormente, debe agregar soporte para todas las notas de C0 a C8. Si bien esto podría hacerse agregando muchos casos adicionales a su declaración if, dicha solución es engorrosa, inelegante e inaceptable para los propósitos de este ejercicio. En cambio, debe explotar la relación entre las notas en octavas adyacentes. En particular, la frecuencia de cualquier nota en octava n es la mitad de la frecuencia de la nota correspondiente en octava n + 1. Al usar esta relación, debería poder agregar soporte para las notas adicionales sin agregar casos adicionales a su declaración if.
-![](Programa41.png)
+![](Programa41(1).png)
 ![](Programa41(2).png)
 ## Ejercicio 42: Frecuencia a tener en cuenta.
 En la pregunta anterior, convertiste del nombre de la nota a la frecuencia. En esta pregunta escribirás un programa que revierte ese proceso. Comience leyendo una frecuencia del usuario. Si la frecuencia está dentro de un Hertz de un valor que figura en la tabla de la pregunta anterior, informe el nombre de la nota. De lo contrario, informe que la frecuencia no corresponde a una nota conocida. En este ejercicio solo necesita considerar las notas enumeradas en la tabla. No hay necesidad de considerar notas de otras octavas.
-![](Programa42.png)
+![](Programa42(1).png)
 ![](Programa42(2).png)
 ## Ejercicio 43: Caras sobre el dinero.
 Es común que las imágenes de los líderes anteriores de un país, u otras personas de importancia histórica, aparezcan en su dinero. Las personas que aparecen en los billetes en los Estados Unidos se enumeran en la Tabla.
@@ -240,7 +240,7 @@ Andrew Jackson $20
 Ulysses S. Grant $50 
 Benjamin Franklin $100
 billete de la cantidad ingresada. Se debe mostrar un mensaje de error apropiado si no existe dicha nota.
-![](Programa43.png)
+![](Programa43(1).png)
 ![](Programa43(2).png)
 ## Ejercicio 44: Fecha de nombre de vacaciones.
 Canadá tiene tres feriados nacionales que caen en las mismas fechas cada año.
@@ -248,13 +248,14 @@ New year’s day January 1
 Canada day July 1 
 Christmas day December 25
 Escriba un programa que lea un mes y un día del usuario. Si el mes y el día coinciden con uno de los feriados enumerados anteriormente, entonces su programa debería mostrar el nombre del feriado. De lo contrario, su programa debería indicar que el mes y el día ingresados no corresponden a un día festivo de fecha fija.
-![](Programa44.png)
+![](Programa44(1).png)
 ![](Programa44(2).png)
 ## Ejercicio 45: ¿De qué color es ese cuadrado?.
 Las posiciones en un tablero de ajedrez se identifican con una letra y un número. La letra identifica la columna, mientras que el número identifica la fila, como se muestra a continuación:
 Escriba un programa que lea una posición del usuario. Use una declaración if para determinar si la columna comienza con un cuadrado negro o un cuadrado blanco. Luego use la aritmética modular para informar el color del cuadrado en esa fila. Por ejemplo, si el usuario ingresa a1, su programa debe informar que el cuadrado es negro. Si el usuario ingresa d5, entonces su programa debe informar que el cuadrado es blanco. Su programa puede asumir que siempre se ingresará una posición válida. No necesita realizar ninguna comprobación de errores.
 ![](Programa45.png)
 ![](Programa45(2).png)
+![](Programa45(3).png)
 ## Ejercicio 46: Temporada de mes y día.
 El año se divide en cuatro estaciones: primavera, verano, otoño e invierno. Si bien las fechas exactas en que cambian las estaciones varían un poco de un año a otro debido a la forma en que se construye el calendario, utilizaremos las siguientes fechas para este ejercicio:
 Spring March 20 
