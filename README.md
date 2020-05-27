@@ -32,24 +32,36 @@ Nuestra salida de datos es nuestro nombre mas un hola como bienvenida.
 
 ## Ejercicio 3: Área de una habitación.
 Un programa que calcula el área, introduciendo el largo y el ancho en metros.
+![](Programa3.png)
+![](Programa3(2).png)
 ## Ejercicio 4: Área de un campo.
 Un programa que calcula el área de un campo y lo despliega en acres.
+![](Programa4.png)
+![](Programa4(2).png)
 ## Ejercicio 5: Depositos de botellas.
 En muchas jurisdicciones se agrega un pequeño depósito a los envases de bebidas para alentar a las personas para reciclarlos En una jurisdicción particular, beba recipientes de un litro o menos tienen un depósito de $ 0.10, y los recipientes de bebidas que contienen más de un litro tienen Depósito de $ 0.25.
 Escriba un programa que lea el número de contenedores de cada tamaño del usuario. Su programa debe continuar calculando y mostrando el reembolso que será recibido por devolver esos contenedores. Formatee la salida para que incluya un dólar
 firmar y siempre muestra exactamente dos decimales.
-
+![](Programa5.png)
+![](Programa5(2).png)
 ## Ejercicio 6: Impuestos y propina.
 El programa que cree para este ejercicio comenzará leyendo el costo de una comida ordenado en un restaurante del usuario. Entonces su programa calculará el impuesto y propina para la comida. Use su tasa impositiva local cuando calcule la cantidad de impuestos adeudados. Calcule la propina como el 18 por ciento de la cantidad de comida (sin el impuesto). La salida de
 su programa debe incluir el monto de los impuestos, el monto de la propina y el total general de la comida incluye tanto el impuesto como la propina. Formatee la salida para que todos los valores se muestran con dos decimales.
+![](Programa6.png)
+![](Programa6(2).png)
 ## Ejercicio 7: Suma de los primeros numeros n enteros positivos.
 Escriba un programa que lea un entero positivo, n, del usuario y luego muestre el suma de todos los enteros de 1 a n. La suma de los primeros n enteros positivos puede ser calculado usando la fórmula:sum = ((n)n+1)/2
+![](Programa7.png)
+![](Programa7(2).png)
 ## Ejercicio 8: Cajas de cereal.
 Un minorista en línea vende dos productos: widgets y artilugios. Cada widget pesa 75 gramos Cada artilugio pesa 112 gramos. Escribe un programa que lea el número de widgets y la cantidad de artilugios en un pedido del usuario. Entonces tu programa
 debe calcular y mostrar el peso total de la orden.
-
+![](Programa8.png)
+![](Programa8(2).png)
 ## Ejercicio 9: Interés compuesto.
 Imagina que acabas de abrir una nueva cuenta de ahorros que genera un interés del 4% por año. El interés que gana se paga al final del año y se agrega al saldo de la cuenta de ahorro. Escriba un programa que comience leyendo el cantidad de dinero depositada en la cuenta del usuario. Entonces su programa debería calcule y muestre el monto en la cuenta de ahorros después de 1, 2 y 3 años. Monitor cada cantidad para que se redondee a 2 decimales.
+![](Programa9.png)
+![](Programa9(2).png)
 ## Ejercicio 10: Aritmética.
 Cree un programa que lea dos enteros, a y b, del usuario. Su programa debe calcular y mostrar: 
 • La suma de a y b 
@@ -59,77 +71,135 @@ Cree un programa que lea dos enteros, a y b, del usuario. Su programa debe calcu
 • El resto cuando a se divide por b 
 • El resultado de log10 a 
 • El resultado de ab.
+![](Programa10.png)
+![](Programa10(2).png)
 ## Ejercicio 11: Eficiencia de combustible.
 En los Estados Unidos, la eficiencia del combustible para vehículos normalmente se expresa en millas por galón (MPG). En Canadá, la eficiencia del combustible normalmente se expresa en litros por cien kilómetros (L / 100 km). Usa tus habilidades de investigación para determinar cómo convertir de MPG a L / 100 km. Luego cree un programa que lea un valor del usuario en América unidades y muestra la eficiencia de combustible equivalente en unidades canadienses.
+![](Programa11.png)
+![](Programa11(2).png)
 ## Ejercicio 12: Distancia entre dos puntos en la Tierra.
 La superficie de la Tierra es curva, y la distancia entre los grados de longitud varía con la latitud. Como resultado, encontrar la distancia entre dos puntos en la superficie de la Tierra es más complicado que simplemente usar el teorema de Pitágoras. Sea (t1, g1) y (t2, g2) la latitud y longitud de dos puntos en la superficie de la Tierra. La distancia entre estos puntos, siguiendo la superficie de la Tierra, en kilómetros es:
 distance = 6371.01 × arccos(sin(t1) × sin(t2) + cos(t1) × cos(t2) × cos(g1 − g2))
 Cree un programa que permita al usuario ingresar la latitud y longitud de dos puntos en la Tierra en grados. Su programa debe mostrar la distancia entre los puntos, siguiendo la superficie de la tierra, en kilómetros.
+![](Programa12.png)
+![](Programa12(2).png)
 ## Ejercicio 13: Haciendo el cambio.
 Considere el software que se ejecuta en una máquina de autopago. Una tarea que debe poder realizar es determinar cuánto cambio proporcionar cuando el comprador paga una compra en efectivo. Escriba un programa que comience leyendo una cantidad de centavos del usuario como entero. Luego, su programa debe calcular y mostrar las denominaciones de las monedas que se deben usar para dar esa cantidad de cambio al comprador. El cambio debe darse usando la menor cantidad de monedas posible. Suponga que la máquina está cargada de centavos, monedas de cinco centavos, monedas de diez centavos, cuartos, loonies and toonies.
+![](Programa13.png)
+![](Programa13(2).png)
 ## Ejercicio 14: Unidades de altura.
 Muchas personas piensan en su altura en pies y pulgadas, incluso en algunos países que utilizan principalmente el sistema métrico. Escriba un programa que lea un número de pies del usuario, seguido de un número de pulgadas. Una vez que se leen estos valores, su programa debe calcular y mostrar el número equivalente de centímetros.
+![](Programa14.png)
+![](Programa14(2).png)
 ## Ejercicio 15: Unidades de distancia.
 En este ejercicio, creará un programa que comienza leyendo una medida en pies del usuario. Luego, su programa debe mostrar la distancia equivalente en pulgadas, yardas y millas. Use Internet para buscar los factores de conversión necesarios si no los tiene memorizados.
+![](Programa15.png)
+![](Programa15(2).png)
 ## Ejercicio 16: Área y Volumen.
 Escriba un programa que comience leyendo un radio, r, del usuario. El programa continuará calculando y mostrando el área de un círculo con radio r y el volumen de una esfera con radio r. Use la constante pi en el módulo matemático en sus cálculos.
+![](Programa16.png)
+![](Programa16(2).png)
 ## Ejercicio 17: Capacidad calorífica.
 La cantidad de energía requerida para aumentar la temperatura de un gramo de un material en un grado Celsius es la capacidad de calor específica del material, C. La cantidad total de energía requerida para elevar m gramos de un material en ΔT grados Celsius se puede calcular usando el fórmula: q = mT T
 Escriba un programa que lea la masa de un poco de agua y el cambio de temperatura del usuario. Su programa debe mostrar la cantidad total de energía que debe agregarse o eliminarse para lograr el cambio de temperatura deseado.
 Extienda su programa para que también calcule el costo de calentar el agua. La electricidad se factura normalmente utilizando unidades de kilovatios hora en lugar de julios. En este ejercicio, debe asumir que la electricidad cuesta 8.9 centavos por kilovatio-hora. Use su programa para calcular el costo de hervir agua para una taza de café.
+![](Programa17.png)
+![](Programa17(2).png)
 ## Ejercicio 18: Volumen de un cilindro.
 El volumen de un cilindro se puede calcular multiplicando el área de su base circular por su altura. Escriba un programa que lea el radio del cilindro, junto con su altura, del usuario y calcule su volumen. Muestra el resultado redondeado a un decimal.
+![](Programa18.png)
+![](Programa18(2).png)
 ## Ejercicio 19: Caida libre.
 Cree un programa que determine qué tan rápido viaja un objeto cuando toca el suelo. El usuario ingresará la altura desde la cual se cae el objeto en metros (m). Debido a que el objeto se cae, su velocidad inicial es de 0 m / s. Suponga que la aceleración debida a la gravedad es 9.8 m / s2. Puede usar la fórmula vf = v2 i + 2ad para calcular velocidad final, vf, cuando se conoce la velocidad inicial, vi, aceleración, a y distancia.
+![](Programa19.png)
+![](Programa19(2).png)
 ## Ejercicio 20: Ley del gas ideal.
 La ley de los gases ideales es una aproximación matemática del comportamiento de los gases a medida que cambian la presión, el volumen y la temperatura. Por lo general, se indica como: PV=nRT
 donde P es la presión en Pascales, V es el volumen en litros, n es la cantidad de sustancia en moles, R es la constante de gas ideal, igual a 8.314 J mol K, y T es la temperatura en grados Kelvin.
 Escriba un programa que calcule la cantidad de gas en moles cuando el usuario suministra la presión, el volumen y la temperatura. Pruebe su programa determinando la cantidad de moles de gas en un tanque de buceo. Un tanque típico de SCUBA contiene 12 litros de gas a una presión de 20,000,000 Pascales (aproximadamente 3,000 PSI). La temperatura ambiente es de aproximadamente 20 grados Celsius o 68 grados Fahrenheit.
+![](Programa20.png)
+![](Programa20(2).png)
 ## Ejercicio 21: Área de un triángulo.
 El área de un triángulo se puede calcular usando la siguiente fórmula, donde b es la longitud de la base del triángulo y h es su altura: área= (b x a)/2
 Escriba un programa que permita al usuario ingresar valores para byh. Luego, el programa debe calcular y mostrar el área de un triángulo con longitud base by altura h.
+![](Programa21.png)
+![](Programa21(2).png)
 ## Ejercicio 22: Área de un triángulo (de nuevo).
 En el ejercicio anterior, creó un programa que calculaba el área de un triángulo cuando se conocía la longitud de su base y su altura. También es posible calcular el área de un triángulo cuando se conocen las longitudes de los tres lados. Sean s1, s2 y s3 las longitudes de los lados. Sea s = (s1 + s2 + s3) / 2. Luego, el área del triángulo se puede calcular utilizando la siguiente fórmula:  area = (srqrt )s × (s − s1) × (s − s2) × (s − s3)
 Desarrolle un programa que lea las longitudes de los lados de un triángulo del usuario y muestre su área.
+![](Programa22.png)
+![](Programa22(2).png)
 ## Ejercicio 23: Área de un polígono regular.
 Un polígono es regular si sus lados tienen la misma longitud y los ángulos entre todos los lados adyacentes son iguales. El área de un polígono regular se puede calcular usando la siguiente fórmula, donde s es la longitud de un lado yn es el número de lados: 
 area = (n × s^2)/ ((4 × tan( (π /n))
 Escriba un programa que lea s y n del usuario y luego muestre el área de un polígono regular construido a partir de estos valores.
+![](Programa23.png)
+![](Programa23(2).png)
 ## Ejercicio 24: Unidades de tiempo.
 Cree un programa que lea una duración del usuario como un número de días, horas, minutos y segundos. Calcule y muestre el número total de segundos representado por esta duración.
+![](Programa24.png)
+![](Programa24(2).png)
 ## Ejercicio 25: Unidades de tiempo 2.
 En este ejercicio revertirá el proceso descrito en el ejercicio anterior. Desarrolle un programa que comience leyendo un número de segundos del usuario. Luego, su programa debe mostrar la cantidad de tiempo equivalente en la forma D: HH: MM: SS, donde D, HH, MM y SS representan días, horas, minutos y segundos respectivamente. Las horas, minutos y segundos deben estar formateados para que ocupen exactamente dos dígitos, con un 0 inicial si es necesario.
+![](Programa25.png)
+![](Programa25(2).png)
 ## Ejercicio 26: Tiempo actual.
 Python incluye una biblioteca de funciones para trabajar con el tiempo, incluida una función llamada asctime en el módulo de tiempo. Lee la hora actual del reloj interno de la computadora y la devuelve en un formato legible para humanos. Escriba un programa que muestre la hora y fecha actuales. Su programa no requerirá ninguna entrada del usuario.
+![](Programa26.png)
+![](Programa26(2).png)
 ## Ejercicio 27: Índice de masa corporal
 Escriba un programa que calcule el índice de masa corporal (IMC) de un individuo. Su programa debe comenzar leyendo una altura y un peso del usuario. Luego, debe usar una de las siguientes dos fórmulas para calcular el IMC antes de mostrarlo. Si lee la altura en pulgadas y el peso en libras, el índice de masa corporal se calcula utilizando la siguiente fórmula: BMI = weight/(( height × height)) × 703.
 Si lee la altura en metros y el peso en kilogramos, el índice de masa corporal se calcula utilizando esta fórmula un poco más simple: BMI = weight / (height × height)
+![](Programa27.png)
+![](Programa27(2).png)
 ## Ejercicio 28: Escalofríos.
 Cuando el viento sopla en clima frío, el aire se siente aún más frío de lo que realmente es porque el movimiento del aire aumenta la velocidad de enfriamiento de los objetos cálidos, como las personas. Este efecto se conoce como sensación térmica.
 En 2001, Canadá, el Reino Unido y los Estados Unidos adoptaron la siguiente fórmula para calcular el índice de sensación térmica. Dentro de la fórmula Ta está la temperatura del aire en grados Celsius y V es la velocidad del viento en kilómetros por hora. Se puede usar una fórmula similar con diferentes valores constantes con temperaturas en grados Fahrenheit y velocidades del viento en millas por hora.
 WCI = 13.12 + 0.6215T_a − 11.37V^0.16 + 0.3965T_aV^0.16
 Escriba un programa que comience leyendo la temperatura del aire y la velocidad del viento del usuario. Una vez que se hayan leído estos valores, su programa debería mostrar el índice de enfriamiento del viento redondeado al entero más cercano.
+![](Programa28.png)
+![](Programa28(2).png)
 ## Ejercicio 29: Celsius a Fahrenheit y Kelvin.
 Escriba un programa que comience leyendo una temperatura del usuario en grados Celsius. Luego, su programa debe mostrar la temperatura equivalente en grados Fahrenheit y grados Kelvin. Los cálculos necesarios para convertir entre diferentes unidades de temperatura se pueden encontrar en Internet.
+![](Programa29.png)
+![](Programa29(2).png)
 ## Ejercicio 30: Unidades de presión.
 En este ejercicio creará un programa que lee la presión del usuario en kilopascales. Una vez que se haya leído la presión, su programa debe informar la presión equivalente en libras por pulgada cuadrada, milímetros de mercurio y atmósferas. Usa tus habilidades de investigación para determinar los factores de conversión entre estas unidades.
+![](Programa30.png)
+![](Programa30(2).png)
 ## Ejercicio 31: Suma de los dígitos en un entero.
 Desarrolle un programa que lea un número entero de cuatro dígitos del usuario y muestre la suma de los dígitos en el número. Por ejemplo, si el usuario ingresa 3141, entonces su programa debería mostrar 3 + 1 + 4 + 1 = 9.
+![](Programa31.png)
+![](Programa31(2).png)
 ## Ejercicio 32: Ordenar 3 enteros.
 Cree un programa que lea tres enteros del usuario y los muestre en orden ordenado (de menor a mayor). Use las funciones min y max para encontrar los valores más pequeños y más grandes. El valor medio se puede encontrar calculando la suma de los tres valores y luego restando el valor mínimo y el valor máximo
+![](Programa32.png)
+![](Programa32(2).png)
 ## Ejercicio 33: Pan de un día.
 Una panadería vende hogazas de pan por $ 3.49 cada una. El pan de un día tiene un descuento del 60 por ciento. Escriba un programa que comience leyendo la cantidad de hogazas de pan de un día compradas al usuario. Luego, su programa debe mostrar el precio regular del pan, el descuento porque tiene un día de antigüedad y el precio total. Todos los valores deben mostrarse con dos decimales, y los puntos decimales en todos los números deben alinearse cuando el usuario ingresa valores razonables
+![](Programa33.png)
+![](Programa33(2).png)
 ## Ejercicio 34: ¿Par o impar?.
 Escriba un programa que lea un número entero del usuario. Luego, su programa debe mostrar un mensaje que indique si el número entero es par o impar.
+![](Programa34.png)
+![](Programa34(2).png)
 ## Ejercicio 35: Años de perro.
 Se dice comúnmente que un año humano es equivalente a 7 años de perro. Sin embargo, esta simple conversión no reconoce que los perros alcanzan la edad adulta en aproximadamente dos años. Como resultado, algunas personas creen que es mejor contar cada uno de los primeros dos años humanos como 10.5 años de perro, y luego contar cada año humano adicional como 4 años de perro.
 Escriba un programa que implemente la conversión de años humanos a años de perros descritos en el párrafo anterior. Asegúrese de que su programa funcione correctamente para conversiones de menos de dos años humanos y para conversiones de dos o más años humanos. Su programa debe mostrar un mensaje de error apropiado si el usuario ingresa un número negativo.
+![](Programa35.png)
+![](Programa35(2).png)
 ## Ejercicio 36: Vocal o Consonante.
 En este ejercicio creará un programa que lee una letra del alfabeto del usuario. Si el usuario ingresa a, e, i, o u, entonces su programa debe mostrar un mensaje que indica que la letra ingresada es una vocal. Si el usuario ingresa y, entonces su programa debería mostrar un mensaje que indica que a veces y es una vocal, y a veces y es una consonante. De lo contrario, su programa debería mostrar un mensaje que indica que la letra es una consonante.
+![](Programa36.png)
+![](Programa36(2).png)
 ## Ejercicio 37: Nombra esa forma.
 Escriba un programa que determine el nombre de una forma a partir de su número de lados. Lea el número de lados del usuario y luego informe el nombre apropiado como parte de un mensaje significativo. Su programa debe admitir formas con desde 3 hasta (e incluyendo) 10 lados. Si se ingresa un número de lados fuera de este rango, entonces su programa debería mostrar un mensaje de error apropiado.
+![](Programa37.png)
+![](Programa37(2).png)
 ## Ejercicio 38: Nombre del mes a la cantidad de días.
 La duración de un mes varía de 28 a 31 días. En este ejercicio creará un programa que lee el nombre de un mes del usuario como una cadena. Luego, su programa debería mostrar la cantidad de días en ese mes. Muestre “28 o 29 días” para febrero para que se aborden los años bisiestos.
+![](Programa38.png)
+![](Programa38(2).png)
 ## Ejercicio 39: Niveles de sonido.
 La siguiente tabla enumera el nivel de sonido en decibelios para varios ruidos comunes.
 Jackhammer 130db
@@ -137,8 +207,12 @@ Gas lawnmower 106db
  Alarm clock 70db
 Quiet room 40db
 Escriba un programa que lea un nivel de sonido en decibelios del usuario. Si el usuario ingresa un nivel de decibelios que coincide con uno de los ruidos en la tabla, entonces su programa debería mostrar un mensaje que contenga solo ese ruido. Si el usuario ingresa una cantidad de decibelios entre los ruidos enumerados, entonces su programa debe mostrar un mensaje que indique entre qué ruidos se encuentra el nivel. Asegúrese de que su programa también genere salida razonable para un valor más pequeño que el ruido más bajo en la tabla, y para un valor más grande que el ruido más alto en la tabla.
+![](Programa39.png)
+![](Programa39(2).png)
 ## Ejercicio 40: Nombra ese triángulo.
 Un triángulo se puede clasificar en función de la longitud de sus lados como equilátero, isósceles o escaleno. Los 3 lados de un triángulo equilátero tienen la misma longitud. Un triángulo isósceles tiene dos lados que tienen la misma longitud y un tercer lado que tiene una longitud diferente. Si todos los lados tienen diferentes longitudes, entonces el triángulo es escaleno. Escriba un programa que lea las longitudes de 3 lados de un triángulo del usuario. Mostrar un mensaje que indique el tipo de triángulo
+![](Programa40.png)
+![](Programa40(2).png)
 ## Ejercicio 41: Nota a frecuencia.
 La siguiente tabla enumera una octava de notas musicales, comenzando con C central, junto con sus frecuencias.
 C4 261.63hz
@@ -149,8 +223,12 @@ G4 392.00hz
 A4 440.00hz
  B4 493.88hz
 Comience escribiendo un programa que lea el nombre de una nota del usuario y muestre la frecuencia de la nota. Su programa debe admitir todas las notas enumeradas anteriormente. Una vez que tenga su programa funcionando correctamente para las notas enumeradas anteriormente, debe agregar soporte para todas las notas de C0 a C8. Si bien esto podría hacerse agregando muchos casos adicionales a su declaración if, dicha solución es engorrosa, inelegante e inaceptable para los propósitos de este ejercicio. En cambio, debe explotar la relación entre las notas en octavas adyacentes. En particular, la frecuencia de cualquier nota en octava n es la mitad de la frecuencia de la nota correspondiente en octava n + 1. Al usar esta relación, debería poder agregar soporte para las notas adicionales sin agregar casos adicionales a su declaración if.
+![](Programa41.png)
+![](Programa41(2).png)
 ## Ejercicio 42: Frecuencia a tener en cuenta.
 En la pregunta anterior, convertiste del nombre de la nota a la frecuencia. En esta pregunta escribirás un programa que revierte ese proceso. Comience leyendo una frecuencia del usuario. Si la frecuencia está dentro de un Hertz de un valor que figura en la tabla de la pregunta anterior, informe el nombre de la nota. De lo contrario, informe que la frecuencia no corresponde a una nota conocida. En este ejercicio solo necesita considerar las notas enumeradas en la tabla. No hay necesidad de considerar notas de otras octavas.
+![](Programa42.png)
+![](Programa42(2).png)
 ## Ejercicio 43: Caras sobre el dinero.
 Es común que las imágenes de los líderes anteriores de un país, u otras personas de importancia histórica, aparezcan en su dinero. Las personas que aparecen en los billetes en los Estados Unidos se enumeran en la Tabla.
 Escriba un programa que comience leyendo la denominación de un billete del usuario. Luego, su programa debe mostrar el nombre de la persona que aparece en el
@@ -162,15 +240,21 @@ Andrew Jackson $20
 Ulysses S. Grant $50 
 Benjamin Franklin $100
 billete de la cantidad ingresada. Se debe mostrar un mensaje de error apropiado si no existe dicha nota.
+![](Programa43.png)
+![](Programa43(2).png)
 ## Ejercicio 44: Fecha de nombre de vacaciones.
 Canadá tiene tres feriados nacionales que caen en las mismas fechas cada año.
 New year’s day January 1 
 Canada day July 1 
 Christmas day December 25
 Escriba un programa que lea un mes y un día del usuario. Si el mes y el día coinciden con uno de los feriados enumerados anteriormente, entonces su programa debería mostrar el nombre del feriado. De lo contrario, su programa debería indicar que el mes y el día ingresados no corresponden a un día festivo de fecha fija.
+![](Programa44.png)
+![](Programa44(2).png)
 ## Ejercicio 45: ¿De qué color es ese cuadrado?.
 Las posiciones en un tablero de ajedrez se identifican con una letra y un número. La letra identifica la columna, mientras que el número identifica la fila, como se muestra a continuación:
 Escriba un programa que lea una posición del usuario. Use una declaración if para determinar si la columna comienza con un cuadrado negro o un cuadrado blanco. Luego use la aritmética modular para informar el color del cuadrado en esa fila. Por ejemplo, si el usuario ingresa a1, su programa debe informar que el cuadrado es negro. Si el usuario ingresa d5, entonces su programa debe informar que el cuadrado es blanco. Su programa puede asumir que siempre se ingresará una posición válida. No necesita realizar ninguna comprobación de errores.
+![](Programa45.png)
+![](Programa45(2).png)
 ## Ejercicio 46: Temporada de mes y día.
 El año se divide en cuatro estaciones: primavera, verano, otoño e invierno. Si bien las fechas exactas en que cambian las estaciones varían un poco de un año a otro debido a la forma en que se construye el calendario, utilizaremos las siguientes fechas para este ejercicio:
 Spring March 20 
@@ -178,6 +262,8 @@ Summer June 21
 Fall September 22 
 Winter December 21
 Cree un programa que lea un mes y un día del usuario. El usuario ingresará el nombre del mes como una cadena, seguido del día dentro del mes como un entero. Luego, su programa debe mostrar la temporada asociada con la fecha que se ingresó.
+![](Programa46.png)
+![](Programa40(2).png)
 ## Ejercicio 47: Fecha de nacimiento astrológica.
 Los horóscopos comúnmente reportados en los periódicos usan la posición del sol en el momento del nacimiento para intentar predecir el futuro. Este sistema de astrología divide el año en doce signos del zodiaco, como se describe en la tabla a continuación:
 Capricorn December 22 to January 19 
@@ -193,6 +279,8 @@ Libra September 23 to October 22
 Scorpio October 23 to November 21 
 Sagittarius November 22 to December 21
 Escriba un programa que le pida al usuario que ingrese su mes y día de nacimiento. Luego, su programa debe informar el signo zodiacal del usuario como parte de un mensaje de salida apropiado.
+![](Programa47.png)
+![](Programa47(2).png)
 ## Ejercicio 48: Zodiaco chino.
 El zodiaco chino asigna animales a años en un ciclo de 12 años. Un ciclo de 12 años se muestra en la tabla a continuación. El patrón se repite a partir de ahí, con 2012 siendo otro año del dragón, y 1999 siendo otro año de la liebre.
 2000 Dragon 
@@ -208,6 +296,8 @@ El zodiaco chino asigna animales a años en un ciclo de 12 años. Un ciclo de 12
 2010 Tiger 
 2011 Hare
 Escriba un programa que lea un año del usuario y muestre el animal asociado con ese año. Su programa debería funcionar correctamente durante cualquier año mayor o igual a cero, no solo los que figuran en la tabla
+![](Programa48.png)
+![](Programa48(2).png)
 ## Ejercicio 49: Escala de richter.
 La siguiente tabla contiene rangos de magnitud de terremotos en la escala de Richter y sus descriptores:
 Less than 2.0 Micro 
@@ -220,10 +310,14 @@ Less than 2.0 Micro
 8.0 to less than 10.0 Great 
 10.0 or more Meteoric
 Escriba un programa que lea una magnitud del usuario y muestre el descriptor apropiado como parte de un mensaje significativo. Por ejemplo, si el usuario ingresa 5.5, su programa debe indicar que un terremoto de magnitud 5.5 se considera un terremoto moderado.
+![](Programa49.png)
+![](Programa49(2).png)
 ## Ejercicio 50: Raíces de una función cuadrática.
 Una función cuadrática univariada tiene la forma f (x) = ax2 + bx + c, donde a, byc son constantes, y a no es cero. Las raíces de una función cuadrática se pueden encontrar al encontrar los valores de x que satisfacen la ecuación cuadrática ax2 + bx + c = 0. Una función cuadrática puede tener 0, 1 o 2 raíces reales. Estas raíces se pueden calcular utilizando la fórmula cuadrática, que se muestra a continuación: root = −b ± √ b2 − 4ac/2a
 La parte de la expresión debajo del signo de raíz cuadrada se llama discriminante. Si el discriminante es negativo, entonces la ecuación cuadrática no tiene raíces reales. Si el discriminante es 0, entonces la ecuación tiene una raíz real. De lo contrario, la ecuación tiene dos raíces reales, y la expresión debe evaluarse dos veces, una vez con un signo más y otra con un signo menos, al calcular el numerador.
 Escriba un programa que calcule las raíces reales de una función cuadrática. Su programa debe comenzar solicitando al usuario los valores de a, byc. Luego, debe mostrar un mensaje que indique el número de raíces reales, junto con los valores de las raíces reales (si las hay)
+![](Programa50.png)
+![](Programa50(2).png)
 ## Ejercicio 51: Calificación de letras a puntos de calificación.
 En una universidad en particular, las calificaciones con letras se asignan a los puntos de calificación de la siguiente manera:
 A+ 	4.0
