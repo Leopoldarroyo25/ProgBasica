@@ -51,7 +51,7 @@ su programa debe incluir el monto de los impuestos, el monto de la propina y el 
 ![](Programa6(2).png)
 ## Ejercicio 7: Suma de los primeros numeros n enteros positivos.
 Escriba un programa que lea un entero positivo, n, del usuario y luego muestre el suma de todos los enteros de 1 a n. La suma de los primeros n enteros positivos puede ser calculado usando la fórmula:sum = ((n)n+1)/2
-![](Programa7.png)
+![](programa7.png)
 ![](Programa7(2).png)
 ## Ejercicio 8: Cajas de cereal.
 Un minorista en línea vende dos productos: widgets y artilugios. Cada widget pesa 75 gramos Cada artilugio pesa 112 gramos. Escribe un programa que lea el número de widgets y la cantidad de artilugios en un pedido del usuario. Entonces tu programa
