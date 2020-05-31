@@ -334,14 +334,20 @@ D+ 	1.3
 D 	1.0
 F 	0
 Escriba un programa que comience leyendo una calificación de letra del usuario. Luego, su programa debe calcular y mostrar el número equivalente de puntos de calificación. segúrese de que su programa genere un mensaje de error apropiado si el usuario ingresa una calificación de letra no válida
+![](Programa51(1).png)
+![](Programa52(2).png)
 ## Ejercicio 52: Calificación de puntos a calificación de letras.
 En el ejercicio anterior, creó un programa que convierte una calificación de letra en el número equivalente de puntos de calificación. En este ejercicio creará un programa que invierte el proceso y convierte de un valor de calificación ingresado por el usuario a una calificación de letra. Asegúrese de que su programa maneje los valores de calificación que se encuentran entre las calificaciones de las letras. Estos deben redondearse al grado de letra más cercano. Su programa debe reportar A + para un promedio de calificaciones de 4.0 (o más).
+![](Programa52(1).png)
+![](Programa52(2).png)
 ## Ejercicio 53: Evaluar empleados.
 En una empresa en particular, los empleados son calificados al final de cada año. La escala de calificación comienza en 0.0, con valores más altos que indican un mejor rendimiento y que resultan en aumentos mayores. El valor otorgado a un empleado es 0.0, 0.4 o 0.6 o más. Los valores entre 0.0 y 0.4, y entre 0.4 y 0.6 nunca se usan. El significado asociado con cada calificación se muestra en la siguiente tabla. El monto del aumento de un empleado es de $ 2400.00 multiplicado por su calificación.
 0.0 	Unacceptable performance
 0.4 	Acceptable performance
 0.6 or more 	Meritorious performance
 Escriba un programa que lea una calificación del usuario e indique si el rendimiento fue inaceptable, aceptable o meritorio. También se debe informar el monto del aumento del empleado. Su programa debe mostrar un mensaje de error apropiado si se ingresa una calificación no válida.
+![](Programa53(1).png)
+![](Programa53(2).png)
 ## Ejercicio 54: Longitudes de onda de luz visible.
 The wavelength of visible light ranges from 380 to 750 nanometers (nm). While the
 spectrum is continuous, it is often divided into 6 colors as shown below: 
@@ -352,6 +358,8 @@ Yellow 	570 to less than 590
 Orange 	590 to less than 620
 Red 	620 to 750
 Escriba un programa que lea una longitud de onda del usuario e informe su color. Muestre un mensaje de error apropiado si la longitud de onda ingresada por el usuario está fuera del espectro visible.
+![](Programa54(1).png)
+![](Programa54(2).png)
 ## Ejercicio 55: Frecuencia para nombrar.
 La radiación electromagnética se puede clasificar en una de las 7 categorías según su frecuencia, como se muestra en la tabla a continuación:
 Radio waves 	Less than 3 × 109
@@ -362,9 +370,13 @@ Ultraviolet light 	7.5 × 1014 to less than 3 × 1017
 X-rays 	3 × 1017 to less than 3 × 1019
 Gamma rays 	3 1019 or more
 Escriba un programa que lea la frecuencia de la radiación del usuario y muestre el nombre apropiado.
+![](Programa55(1).png)
+![](Programa55(2).png)
 ## Ejercicio 56: Bill de teléfono celular.
 Un plan de teléfono celular en particular incluye 50 minutos de tiempo de aire y 50 mensajes de texto por $15.00 al mes. Cada minuto adicional de tiempo de aire cuesta $0.25, mientras que los mensajes de texto adicionales cuestan $0.15 cada uno. Todas las facturas de teléfono celular incluyen un cargo adicional de $0.44 para apoyar a los centros de llamadas 911, y toda la factura (incluyendo el cargo de 911) está sujeta a 5 por ciento de impuestos sobre las ventas.
 Escriba un programa que lea la cantidad de minutos y mensajes de texto utilizados en un mes por parte del usuario. Muestre el cargo base, el cargo adicional por minutos (si corresponde), el cargo adicional por mensaje de texto (si corresponde), la tarifa del 911, el impuesto y el monto total de la factura. Solo muestre los cargos adicionales por minutos y mensajes de texto si el usuario incurrió en costos en estas categorías. Asegúrese de que todos los cargos se muestren con 2 decimales.
+![](Programa56(1).png)
+![](Programa56(2).png)
 ## Ejercicio 57: ¿Es un año bisiesto?.
 La mayoría de los años tienen 365 días. Sin embargo, el tiempo necesario para que la Tierra orbite el Sol es en realidad un poco más que eso. Como resultado, un día adicional, el 29 de febrero, se incluye en algunos años para corregir esta diferencia. Estos años se conocen como años bisiestos. Las reglas para determinar si un año es o no un año bisiesto son las siguientes:
 • Cualquier año que sea divisible por 400 es un año bisiesto. 
@@ -372,10 +384,16 @@ La mayoría de los años tienen 365 días. Sin embargo, el tiempo necesario para
 • De los años restantes, cualquier año que sea divisible por 4 es un año bisiesto.
  • Todos los demás años no son años bisiestos.
 Escriba un programa que lea un año del usuario y muestre un mensaje que indique si es o no un año bisiesto.
+![](Programa57(1).png)
+![](Programa57(2).png)
 ## Ejercicio 58: Día siguiente.
 Writeaprogramthatreadsadatefromtheuserandcomputesitsimmediatesuccessor. Por ejemplo, si el usuario escribe valores que representan 2013-11-18, el programa debe mostrar un mensaje que indique que el día inmediatamente después de 2013-11-18 es 2013-11-19. Si el usuario introduce valores que representan 2013-11-30, el programa debe indicar que el día siguiente es 2013-12-01. Si el usuario introduce valores que representan 2013-12-31, el programa debe indicar que el día siguiente es 2014-01-01. La fecha se introducirá en forma numérica con tres instrucciones de entrada separadas; uno para el año, uno para el mes, y otro para el día. Asegúrese de que el programa funciona correctamente durante los años bisiestos.
+![](Programa58(1).png)
+![](Programa58(2).png)
 ## Ejercicio 59: ¿Es válida una matrícula?.
 En una jurisdicción en particular, las matrículas más antiguas consisten en tres letras mayúsculas seguidas de tres números. Cuando se habían utilizado todas las matrículas que seguían ese patrón, el formato se cambiaba a cuatro números seguidos de tres letras mayúsculas. Escriba un programa que comience leyendo una cadena de caracteres del usuario. A continuación, el programa debe mostrar un mensaje que indique si los caracteres son válidos para una matrícula de estilo más antiguo o una placa de matrícula de estilo más reciente. El programa debe mostrar un mensaje adecuado si la cadena introducida por el usuario no es válida para ningún estilo de matrícula.
+![](Programa59(1).png)
+![](Programa59(2).png)
 ## Ejercicio 60: Pagos de ruleta.
 Una ruleta tiene 38 espacios. De estos espacios, 18 son negros, 18 son rojos y dos son verdes. Los espacios verdes están numerados 0 y 00. Los espacios rojos están numerados 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30 32, 34 y 36. Los enteros restantes entre 1 y 36 se utilizan para numerar los espacios negros.
  Muchas apuestas diferentes se pueden realizar en la ruleta. Sólo consideraremos el siguiente subconjunto de ellos en este ejercicio: 
@@ -384,14 +402,26 @@ Una ruleta tiene 38 espacios. De estos espacios, 18 son negros, 18 son rojos y d
 • Impar frente a par (Tenga en cuenta que 0 y 00 no pagan por par)
 • 1 a 18 frente a 19 a 36 
 Escriba un programa que simule un giro de una ruleta utilizando el generador de números aleatorios de Python. Muestra el número seleccionado y todas las apuestas que deben pagarse. Por ejemplo, si se selecciona 13, el programa debe mostrar: El giro dio como resultado 13... Pagar 13 Pagar Black Pay Odd Pay 1 a 18 Si la simulación da como resultado 0 o 00, entonces su programa debe mostrar Pay 0 o Pay 00 sin ninguna salida adicional.
+![](Programa60(1).png)
+![](Programa60(2).png)
 ## Ejercicio 61: Promedio.
 En este ejercicio creará un programa que calcula el promedio de una colección de valores introducidos por el usuario. El usuario introducirá 0 como un valor centinela para indicar que no se proporcionarán más valores. El programa debe mostrar un mensaje de error adecuado si el primer valor introducido por el usuario es 0.
+![](Programa61(1).png)
+![](Programa61(2).png)
 ## Ejercicio 62: Tabla de descuento.
 Un minorista en particular está teniendo un 60 por ciento de descuento en la venta en una variedad de productos descontinuados. El minorista desea ayudar a sus clientes a determinar el precio reducido de la mercancía al tener una tabla de descuentos impresa en el estante que muestra los precios originales y los precios después de que se haya aplicado el descuento. Escriba un programa que utilice un bucle para generar esta tabla, mostrando el precio original, el monto del descuento y el nuevo precio para compras de $4.95, $9.95, $14.95, $19.95 y $24.95. Asegúrese de que los importes de descuento y los nuevos precios se redondean a 2 decimales cuando se muestren
+![](Programa62(1).png)
+![](Programa62(2).png)
 ## Ejercicio 63: Tabla de conversión de temperatura.
 Escriba un programa que muestre una tabla de conversión de temperatura para grados Celsius y grados Fahrenheit. La tabla debe incluir filas para todas las temperaturas entre 0 y 100 grados Celsius que son múltiplos de 10 grados Celsius. Incluya encabezados apropiados en las columnas. La fórmula para convertir entre grados Celsius y grados Fahrenheit se puede encontrar en Internet
+
+![](Programa63(1).png)
+![](Programa63(2).png)
 ## Ejercicio 64: No más centavos.
 El 4 de febrero de 2013 fue el último día en que los centavos fueron distribuidos por la Real Casa de la Moneda Canadiense. Ahora que los centavos han sido eliminados, los minoristas deben ajustar los totales para que sean múltiplos de 5 centavos cuando se paguen con efectivo (las transacciones con tarjeta de crédito y tarjeta de débito se siguen cobrando al centavo). Mientras que los minoristas tienen cierta libertad en la forma en que hacen esto, la mayoría optan por redondear al níquel más cercano. Escriba un programa que lea los precios del usuario hasta que se introduzca una línea en blanco. Visualice el coste total de todos los artículos introducidos en una línea, seguido del importe adeudado si el cliente paga con efectivo en una segunda línea. El importe adeudado por un pago en efectivo debe redondearse al níquel más cercano. Una manera de calcular el monto del pago en efectivo es comenzar determinando cuántos centavos se necesitarían para pagar el total. A continuación, calcule el resto cuando este número de centavos se divide por 5. Por último, ajuste el total hacia abajo si el resto es menor que 2,5. De lo contrario, ajuste el total hacia arriba.
+
+![](Programa64(1).png)
+![](Programa64(2).png)
 ## Ejercicio 65: Calcular el perímetro de un polígono.
 Escriba un programa que calcule el perímetro de un polígono. Comience leyendo los valores x e y para el primer punto en el perímetro del polígono del usuario. A continuación, continúe leyendo pares de valores x e y hasta que el usuario escriba una línea en blanco para la coordenada x. Cada vez que lea una coordenada adicional, debe calcular la distancia hasta el punto anterior y agregarla al perímetro. Cuando se introduce una línea en blanco para la coordenada X, el programa debe agregar la distancia desde el último punto hasta el primer punto hasta el perímetro. Entonces debe mostrar el perímetro total. La entrada y salida de muestra se muestra a continuación, con la entrada del usuario mostrada en negrita:
 Enter the x part of the coordinate: 0
@@ -402,17 +432,32 @@ Enter the x part of the coordinate: (blank to quit): 0
 Enter the y part of the coordinate: 1
 Enter the x part of the coordinate: (blank to quit):
 The perimeter of that polygon is 3.414213562373095
+
+![](Programa65(1).png)
+![](Programa65(2).png)
 ## Ejercicio 66: Calcular un promedio de calificaciones.
 El ejercicio 51 incluyó una tabla que muestra la conversión de calificaciones de letras a puntos de calificación en una institución académica en particular. En este ejercicio calculará el promedio de puntos de calificación de un número arbitrario de calificaciones de letras introducidas por el usuario. El usuario introducirá una línea en blanco para indicar que se han proporcionado todas las calificaciones. Por ejemplo, si el usuario escribe A, seguido de C+, seguido de B, seguido de una línea en blanco, el programa debe informar de un promedio de puntos de calificación de 3.1. Puede resultarle útil que le resulte útil su solución al Ejercicio 51 al completar este ejercicio. Su programa no necesita realizar ninguna comprobación de errores. Puede suponer que cada valor introducido por el usuario siempre será una calificación de letra válida o una línea en blanco.
+
+![](Programa66(1).png)
+![](Programa66(2).png)
 ## Ejercicio 67: Precio de admisión.
 Un zoológico en particular determina el precio de la entrada en función de la edad del huésped. Los huéspedes de 2 años o menos son admitidos sin cargo. Los niños de entre 3 y 12 años de edad cuestan $14.00. Las personas mayores de 65 años cuestan $18.00. La entrada para todos los demás huéspedes es de $23.00. Crea un programa que comience leyendo las edades de todos los invitados de un grupo del usuario, con una edad introducida en cada línea. El usuario introducirá una línea en blanco para indicar que no hay más invitados en el grupo. A continuación, el programa debe mostrar el coste de admisión para el grupo con un mensaje adecuado. El costo debe mostrarse utilizando dos decimales.
+
+![](Programa67(1).png)
+![](Programa67(2).png)
 ## Ejercicio 68: Bits de paridad.
 Un bit de paridad es un mecanismo simple para detectar errores en los datos transmitidos a través de una conexión poco fiable, como una línea telefónica. La idea básica es que un bit adicional se transmite después de cada grupo de 8 bits para que se pueda detectar un solo error de bit en la transmisión. Los bits de paridad se pueden calcular para paridad uniforme o paridad impar. Si se selecciona paridad incluso, entonces el bit de paridad que se transmite se elige de modo que el número total de un bits transmitidos (8 bits de datos más el bit de paridad) sea par. Cuando se selecciona la paridad impar, se elige el bit de paridad para que el número total de un bit transmitido sea impar.
 Escriba un programa que calcule el bit de paridad para grupos de 8 bits introducidos por el usuario utilizando paridad uniforme. El programa debe leer cadenas que contengan 8 bits hasta que el usuario introduzca una línea en blanco. Después de que el usuario introduzca cada cadena, el programa debe mostrar un mensaje claro que indique si el bit de paridad debe ser 0 o 1. Muestre un mensaje de error apropiado si el usuario ingresa algo distinto de 8 bits. 
+
+![](Programa68(1).png)
+![](Programa68(2).png)
 ## Ejercicio 69: π aproximado.
 El valor de la serie infinita se puede aproximar a la siguiente serie infinita:
 π ≈ 3 + 4/( 2 × 3 × 4 ) – 4/ (4 × 5 × 6) + 4/ (6 × 7 × 8 )– 4 /(8 × 9 × 10)+ 4/( 10 × 11 × 12) - · · ·
 Escriba un programa que muestre 15 aproximaciones de . La primera aproximación debe hacer uso sólo del primer término de la serie infinita. Cada aproximación adicional mostrada por su programa debe incluir un término más en la serie, por lo que es una mejor aproximación de la clase de tipo "que cualquiera de las aproximaciones mostradas anteriormente"
+
+![](Programa69(1).png)
+![](Programa69(2).png)
 ## Ejercicio 70: Cifrado César
 Uno de los primeros ejemplos conocidos de cifrado fue utilizado por Julio César. César necesitaba dar instrucciones escritas a sus generales, pero no quería que sus enemigos aprendieran sus planes si el mensaje se les escapaba a las manos. Como resultado, desarrolló lo que más tarde se conoció como el Cifrado César. La idea detrás de este cifrado es simple (y como resultado, no proporciona protección contra las técnicas modernas de ruptura de código). Cada letra del mensaje original se desplaza por 3 lugares. Como resultado, A se convierte en D, B se convierte en E, C se convierte en F, D se convierte en G, etc. Las últimas tres letras del alfabeto se envuelven al principio: X se convierte en A, Y se convierte en B y Z se convierte en C. Los caracteres no letra no son modificados por el cifrado.
 Escriba un programa que implemente un cifrado César. Permita que el usuario proporcione el mensaje y el importe del desplazamiento y, a continuación, muestre el mensaje desplazado. Asegúrese de que el programa codifica letras mayúsculas y minúsculas. El programa también debe admitir valores de desplazamiento negativos para que se pueda utilizar tanto para codificar mensajes como para decodificar mensajes.
