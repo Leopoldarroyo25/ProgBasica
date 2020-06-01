@@ -145,42 +145,86 @@ En la ejecucion del programa le pedira al usuario ingresar los valores de distan
 ## Ejercicio 13: Haciendo el cambio.
 Considere el software que se ejecuta en una máquina de autopago. Una tarea que debe poder realizar es determinar cuánto cambio proporcionar cuando el comprador paga una compra en efectivo. Escriba un programa que comience leyendo una cantidad de centavos del usuario como entero. Luego, su programa debe calcular y mostrar las denominaciones de las monedas que se deben usar para dar esa cantidad de cambio al comprador. El cambio debe darse usando la menor cantidad de monedas posible. Suponga que la máquina está cargada de centavos, monedas de cinco centavos, monedas de diez centavos, cuartos, loonies and toonies.
 \
-![](Programa13.png)
+![](Programa13(1).png)
 \
-
+En este ejercicio nos pide que a base a las modenedas que nos dan hagamos un programa que el usuario ingrese cuantos centavamos y con ellos la maquina de su cambio utilizando la menor cantidad de centavos, para ellos vemos el valor de las moendas y las agregamos como nuestras constates *toonies, locos, m1cuar, m10 y m5*
+crearemos dos operaciones *centavos1,centavos11, centavos2,centavos22, centavos3, centavos33, centavos4, centavos44, centavos5, centavos55* esto para saber cuantos centavos se tienen que dar por cada moneda.
+\
 ![](Programa13(2).png)
+\
+En la ejecucion del programa nos pedira que ingresemos la cantidad de centabos y en la nos idra cunato tendra que dar la maquina en centavos.
 ## Ejercicio 14: Unidades de altura.
 Muchas personas piensan en su altura en pies y pulgadas, incluso en algunos países que utilizan principalmente el sistema métrico. Escriba un programa que lea un número de pies del usuario, seguido de un número de pulgadas. Una vez que se leen estos valores, su programa debe calcular y mostrar el número equivalente de centímetros.
+\
 ![](Programa14.png)
+\
+En este ejercico nos pide comvertir pulgas y pies al sistema metrico para ellos nosotros le pediremos al usuario los pies y pulgudas lo unico que sera es hacer operaciones con *ft y in* para ellos tendremos que saber cunado es su equivalencia y hacer su pultiplicacion.
+\
 ![](Programa14(2).png)
+\
+Para la ejecucion del programa se le pedira al usuario que ingrese cada uno de los datos para que asi cea el resultado mostrado.
 ## Ejercicio 15: Unidades de distancia.
 En este ejercicio, creará un programa que comienza leyendo una medida en pies del usuario. Luego, su programa debe mostrar la distancia equivalente en pulgadas, yardas y millas. Use Internet para buscar los factores de conversión necesarios si no los tiene memorizados.
+\
 ![](Programa15(2).png)
+\
+Este ejercicio nos pide que el usuario ingrese la medida en pies y el programa nos de la equivalencia en yardas, pulgadas y millas, para ello investigaremos sus equivalencias y le pediremos al usuario que ingrese *pies*, haremos las operaciones con *pulgadas, yardas y millas* echas esas operaciones solo mandaremos llamar con print para poder ver el resultado de cada una de ellas.
+\
 ![](Programa15(3).png)
+\
+En la ejecucion del programa nos pide pedira que ingresemos la cantidad de pies y automaticamente nos dira sus equivalencias.
 ## Ejercicio 16: Área y Volumen.
 Escriba un programa que comience leyendo un radio, r, del usuario. El programa continuará calculando y mostrando el área de un círculo con radio r y el volumen de una esfera con radio r. Use la constante pi en el módulo matemático en sus cálculos.
+\
 ![](Programa16.png)
+\
+En este ejecicio nos pide que realicemos un programa para que el programa nos de el area y el volumen de una esfera, para ellos le pediremos al usuario que ingrese su radio *r* para que con dos operaciones llamadas *area y volumen* realicen los resultados en estas operaciones tendremos que introducir las formulas correspondientes. Tambien tendremos que utilizar pi como constente.
+\
 ![](Programa16(2).png)
+\
+La ejecucion del programa nos pedira solo insertar el radio del circulo y los resultados nos lo arrojara automaticamente.
 ## Ejercicio 17: Capacidad calorífica.
 La cantidad de energía requerida para aumentar la temperatura de un gramo de un material en un grado Celsius es la capacidad de calor específica del material, C. La cantidad total de energía requerida para elevar m gramos de un material en ΔT grados Celsius se puede calcular usando el fórmula: q = mT T
 Escriba un programa que lea la masa de un poco de agua y el cambio de temperatura del usuario. Su programa debe mostrar la cantidad total de energía que debe agregarse o eliminarse para lograr el cambio de temperatura deseado.
 Extienda su programa para que también calcule el costo de calentar el agua. La electricidad se factura normalmente utilizando unidades de kilovatios hora en lugar de julios. En este ejercicio, debe asumir que la electricidad cuesta 8.9 centavos por kilovatio-hora. Use su programa para calcular el costo de hervir agua para una taza de café.
+\
 ![](Programa17.png)
+\
+En este ejercicio nos pide que calculemos cunatos jolules de energia necesitariamos para que una cierta cantidad de agua llegue a una temperatura deseada, para ello vamos a conciderar *agua* la constate de capacidad calorifica del agua, *ele* que sera para el coste que tiene en centavamos por kilovaltios y nuestros *j* de joules, el usuario solo introducira los mililitros de agua y la temperatura requeria, el programa nos dara automaticamente con las formulas cunato se requiere en joules y cunato nos costaria por llevarla a esa temperatura.
+\
 ![](Programa17(2).png)
+\
+En la ejecucion vemos como se le indica ingresar los mililitros del agua y los grados en Celcius a los qu ese requiere llevar, lodemas nos los da automaticamente el programa.
 ## Ejercicio 18: Volumen de un cilindro.
 El volumen de un cilindro se puede calcular multiplicando el área de su base circular por su altura. Escriba un programa que lea el radio del cilindro, junto con su altura, del usuario y calcule su volumen. Muestra el resultado redondeado a un decimal.
+\
 ![](Programa18.png)
+\
+En este ejercicio nos piden que a partir de una altura y un radio calculemos el volumen de un cilindro, para esto le pediremos al usuario que ingrese una altura y un radio para que con la operacion en donde tendra la formuala para calcular el volumen. Importaremos *import math* para agregar pi a la formula.
+\
 ![](Programa18(2).png)
+\
+En la ejecucion veremos como nos pide la altura y el radio y vemos que automaticamente nos arroja el volumen.
 ## Ejercicio 19: Caida libre.
 Cree un programa que determine qué tan rápido viaja un objeto cuando toca el suelo. El usuario ingresará la altura desde la cual se cae el objeto en metros (m). Debido a que el objeto se cae, su velocidad inicial es de 0 m / s. Suponga que la aceleración debida a la gravedad es 9.8 m / s2. Puede usar la fórmula vf = v2 i + 2ad para calcular velocidad final, vf, cuando se conoce la velocidad inicial, vi, aceleración, a y distancia.
+\
 ![](Programa19.png)
+\
+En este ejercicio nos pide que calculemos la velocidad final de un objeto a partir de la distancia que ingresara el usuaruio, para ello le pediremos al usuario que ingrese la distancia con *d* nuestras constantes seran la gravedad y la velocidad inicial *g y V0* insertamos la operacion que sera la formula de la velocidad final. Se importa *impor math* para poder utilizar raiz cuadrada.
 ![](Programa19(2).png)
+\
+Como vemos en la ejecucion del programa se ingresa la distancia y automaticamente nos da nuestra velodicad final.
 ## Ejercicio 20: Ley del gas ideal.
 La ley de los gases ideales es una aproximación matemática del comportamiento de los gases a medida que cambian la presión, el volumen y la temperatura. Por lo general, se indica como: PV=nRT
 donde P es la presión en Pascales, V es el volumen en litros, n es la cantidad de sustancia en moles, R es la constante de gas ideal, igual a 8.314 J mol K, y T es la temperatura en grados Kelvin.
 Escriba un programa que calcule la cantidad de gas en moles cuando el usuario suministra la presión, el volumen y la temperatura. Pruebe su programa determinando la cantidad de moles de gas en un tanque de buceo. Un tanque típico de SCUBA contiene 12 litros de gas a una presión de 20,000,000 Pascales (aproximadamente 3,000 PSI). La temperatura ambiente es de aproximadamente 20 grados Celsius o 68 grados Fahrenheit.
+\
 ![](Programa20.png)
+\
+En este ejercicio haremos un programa que nos ayude a calcular la catidad de gas en moles, para ellos el usuario va introducir; temperatura, presion y volumen esto sera dado como *T, P, V* se era la operacion de los gases nombles tendremos nuestra constate *R* y solo se mandara llamar *operacion* a print para ver el resultado.
 ![](Programa20(2).png)
+\
+En la ejecucion del programa nos pedira los datos de temperatura, presion y volumen y nos mostrara automaticamente nuestro resultado en moles.
 ## Ejercicio 21: Área de un triángulo.
 El área de un triángulo se puede calcular usando la siguiente fórmula, donde b es la longitud de la base del triángulo y h es su altura: área= (b x a)/2
 Escriba un programa que permita al usuario ingresar valores para byh. Luego, el programa debe calcular y mostrar el área de un triángulo con longitud base by altura h.
