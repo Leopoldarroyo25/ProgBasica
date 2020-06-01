@@ -43,9 +43,11 @@ En este ejercicio crearemos un progreama que nos ayude a calcular un area, para 
 Nuestra pantalla despues de correrla nos dira que ingresemos nuestro *ancho* y *largo* por separados y al final nos dara nuestro resultado. 
 ## Ejercicio 4: Área de un campo.
 Un programa que calcula el área de un campo y lo despliega en acres.
+\
 ![](Programa4.png)
 \
 En este ejercicio nos piede que calculemos una area de un campo pero en acres, para este programa nosotros meteremos dos variables de tipo float en este caso pondremos *largo* y *ancho* tendremos dos para dos operaciones *operacion 1, operacion2* para la primera operacion tendremos calculda el area en metros y en la segunda la aremos para convertirlo a acres. Para nuestrao resultado con print tendremos solo *resultado2*
+\
 ![](Programa4(2).png)
 \
 Para la ejecucion nos pedira como usuario ingresar nuestro *ancho, largo* del campo, y como resultado nos dara el area del campo pero en acres.
@@ -53,9 +55,11 @@ Para la ejecucion nos pedira como usuario ingresar nuestro *ancho, largo* del ca
 En muchas jurisdicciones se agrega un pequeño depósito a los envases de bebidas para alentar a las personas para reciclarlos En una jurisdicción particular, beba recipientes de un litro o menos tienen un depósito de $ 0.10, y los recipientes de bebidas que contienen más de un litro tienen Depósito de $ 0.25.
 Escriba un programa que lea el número de contenedores de cada tamaño del usuario. Su programa debe continuar calculando y mostrando el reembolso que será recibido por devolver esos contenedores. Formatee la salida para que incluya un dólar
 firmar y siempre muestra exactamente dos decimales.
-![](Programa5.png)
+\
+![](programa5.png)
 \
 En este ejercicio nos pide que hagamos un programa en donde calculemos cuantas y de que tamaño son las botellas que se introducen en una maquina y cunato dinero se obtendra por cada una de ellas. Se muestra una bienvenida como constante, agreamos nuestras constantes que seran el coste de cada botellas que seran como *lmenos* para las botellas que son menos de un litro y *lomas* para el coste de botellas de mas de un litro, *menos* sera nuestra variable para que el usuario introduzca las botellas de menos de un litro y *mas* para botellas de mas de un litro, tendremos una *operacion* que esta sera para hacer el calculo del dinero que se resivira, como ultimo nuestro resultado solo sera el de *operacion*
+\
 ![](Programa5(2).png) 
 \
 En ejecucion vemos como aparece nuestra bienvenida e intrucciones de la maquina, nos aparece cuantas botellas chicas y grandes han ingresado y como resultado aparece el dindero que recibiran.
@@ -65,29 +69,39 @@ su programa debe incluir el monto de los impuestos, el monto de la propina y el 
 ![](Programa6.png)
 \
 En este ejercicio se programara un ticket en donde el usuario ingresara que comio y que costo tiene cada comida, tambien calculara cuanto sera de propina y se incluira el iva, para ellos como constantes tendremos la *propina* con un .15 y el *iva2* con un.16, para que el programa pida que ordneo y que costo tiene se ingresara para el nombre de la comida *nombreC1 - nombreC5* y para el precio *precio1C - precioC5* tendremos una operacion llamada *subtotal* donde calculara desde *precioC1 - precioC5* ese mismo moneto lo represtara con print despues se calculara la propina y el iva los representamos con *propina e iva* los imprimirmos para la visualizacion con print para el total de pago se utiliza *total* y se imprime el toatal.
-![](Programa6(2).png)
+![](programa6(2).png)
 \
 En la ejecucion del programa veremos que nos pedira primero comida y despues precio, nos aparecera nuestro subtotal sin iva y sin propina, nos represtara cuando sera de la propina y cuando sera del iva, el total nos dara la suma de todas estas.
 ## Ejercicio 7: Suma de los primeros numeros n enteros positivos.
 Escriba un programa que lea un entero positivo, n, del usuario y luego muestre el suma de todos los enteros de 1 a n. La suma de los primeros n enteros positivos puede ser calculado usando la fórmula:sum = ((n)n+1)/2
+\
 ![](programa7.png)
+\
 En este ejercico nos pide que hagamos un programa en donde el ususario ingrese un nuemero *n* y el programa sume todos estos por ejemplo 3= 1+2+3 = 6 para ellos nosotros pediremos un nuemro con la variable *n* y este le pedira al usuario agregar su numero que desea ser sumado en *operacion* se aregara la formula que nos de llegar a este resultado y solo imprimieremos *operacion*.
+\
 ![](Programa7(2).png)
+\
 Para la ejecucucion nos pedira el numero y nos arrojara el resultado.
 ## Ejercicio 8: Cajas de cereal.
 Un minorista en línea vende dos productos: widgets y artilugios. Cada widget pesa 75 gramos Cada artilugio pesa 112 gramos. Escribe un programa que lea el número de widgets y la cantidad de artilugios en un pedido del usuario. Entonces tu programa
 debe calcular y mostrar el peso total de la orden.
+\
 ![](Programa8.png)
 \
 En este ejercicio nos pide que calculemos a base de cuantas cajas de cada producto, para este caso tendremos como constantes *cfk* y *txk* para referirnos a los gramos de cada caja. Le pediremos al usuario que ingrese la catidad de cada una con variables *cfn* y *txn* tendremos *operacioncfn* y *operaciontxt* para cada tipo de operaciones y finalmente las imprimimos por separado dandode referencia a cada una de las dos operaciones.
+\
 ![](Programa8(2).png)
 \
 En la ejecucion del programa nos pedira ingresar la cantidad de cajas de cada una de ellas y nos mostrara cuanto pesa todo lo que hemos ingresado.
 ## Ejercicio 9: Interés compuesto.
 Imagina que acabas de abrir una nueva cuenta de ahorros que genera un interés del 4% por año. El interés que gana se paga al final del año y se agrega al saldo de la cuenta de ahorro. Escriba un programa que comience leyendo el cantidad de dinero depositada en la cuenta del usuario. Entonces su programa debería calcule y muestre el monto en la cuenta de ahorros después de 1, 2 y 3 años. Monitor cada cantidad para que se redondee a 2 decimales.
+\
 ![](Programa9.png)
+\
 En este programa nos pide calcular a base de los intereses cuanto dinero tendremos en 1ro, 2do y tercer año con un interes del 4% para este programa nosotros tendremos una constante marcada como *interes* le pediremos al usuario cuanto a depositar con la variable *cantidad*, tendremos *operacion1* para calcular cunato sera el interes que se generara tendremos otra operacion llamda *n* para saber el dinero del primer año el cual se reflejara con el print, tendremos *operacion2* en este se multiplicara el primero con el interes el cual se reflejara haciendo la suma en print, para el tercero utilizamos la suma del segundo que es *operacion2 +2 * y lo multiplicamos por el interes, utilizamos *operacion4* para hacer la suma del resultado de *operacion3* en este momento la imprimimos con print para el tercer resultado.
+\
 ![](Programa9(2).png)
+\
 En la ejecucion del programa solos nos pide la primera cantidad y nos dara el resultado de los tres.
 ## Ejercicio 10: Aritmética.
 Cree un programa que lea dos enteros, a y b, del usuario. Su programa debe calcular y mostrar: 
@@ -98,9 +112,13 @@ Cree un programa que lea dos enteros, a y b, del usuario. Su programa debe calcu
 • El resto cuando a se divide por b 
 • El resultado de log10 a 
 • El resultado de ab.
+\
 ![](Programa10.png)
+\
 En este ejecicio lo que tendremos que hacer es que le pediremos al usuario dos numeros y este programa hara, *suma, resta, multimplicacion, division, residuo, logaritmo y elevarlo* lo unico que se hace es pedrile al usuario co dos variables en este caso *a y b* y lo demas se declarara al momento de visualizar. Se utulizara una libreria especial para poder elevar los numeros a una opetencia esta es la pimera que se muestra como *import math* es muy importante para que nosotros podamos utilizar estas funciones tanto como los logartmos como las potencias.
+\
 ![](Programa10(2).png)
+\
 En la ejecucion del programa solo daremos los dos valores y todo lo demas se calculara por si solo.
 ## Ejercicio 11: Eficiencia de combustible.
 En los Estados Unidos, la eficiencia del combustible para vehículos normalmente se expresa en millas por galón (MPG). En Canadá, la eficiencia del combustible normalmente se expresa en litros por cien kilómetros (L / 100 km). Usa tus habilidades de investigación para determinar cómo convertir de MPG a L / 100 km. Luego cree un programa que lea un valor del usuario en América unidades y muestra la eficiencia de combustible equivalente en unidades canadienses.
