@@ -122,17 +122,32 @@ En este ejecicio lo que tendremos que hacer es que le pediremos al usuario dos n
 En la ejecucion del programa solo daremos los dos valores y todo lo demas se calculara por si solo.
 ## Ejercicio 11: Eficiencia de combustible.
 En los Estados Unidos, la eficiencia del combustible para vehículos normalmente se expresa en millas por galón (MPG). En Canadá, la eficiencia del combustible normalmente se expresa en litros por cien kilómetros (L / 100 km). Usa tus habilidades de investigación para determinar cómo convertir de MPG a L / 100 km. Luego cree un programa que lea un valor del usuario en América unidades y muestra la eficiencia de combustible equivalente en unidades canadienses.
-![](Programa11.png)
+\
 ![](Programa11(2).png)
+\
+En este ejercicio nos pide hace una conversion de sistema US al sistema internacional de millas por galon a litros por 100 km para esto se utilizara la variable *USD* para que el ususuario introduzca su valor en el sistema EU tendremos nuestra conste *SI* que sera nuestra referencia para convertilos a listros por 100km, para ellos tendremos *operacion* para que se multimplique nuestro valor agregado por nuestra constante, finalmente se imprime para ver el resiltado mostrado.
+\
+![](Programa11(3).png)
+\
+Al ejecutar el programa el usuario ingresara el valor dado en sistema EU y nuestro resultado se mostrara en L por 100km.
 ## Ejercicio 12: Distancia entre dos puntos en la Tierra.
 La superficie de la Tierra es curva, y la distancia entre los grados de longitud varía con la latitud. Como resultado, encontrar la distancia entre dos puntos en la superficie de la Tierra es más complicado que simplemente usar el teorema de Pitágoras. Sea (t1, g1) y (t2, g2) la latitud y longitud de dos puntos en la superficie de la Tierra. La distancia entre estos puntos, siguiendo la superficie de la Tierra, en kilómetros es:
 distance = 6371.01 × arccos(sin(t1) × sin(t2) + cos(t1) × cos(t2) × cos(g1 − g2))
 Cree un programa que permita al usuario ingresar la latitud y longitud de dos puntos en la Tierra en grados. Su programa debe mostrar la distancia entre los puntos, siguiendo la superficie de la tierra, en kilómetros.
+\
 ![](Programa12.png)
+\
+En este ejercicio se hara un programa que nos ayude a calcular la distancia en puntos a traves de la latitud que seran *ga1* y a traves des la longitud *dis1*, esos valores seran dados por el usuario, crearemos otras variables como *g1,g2,t1,t2* para que nuestros valores sean tomados como radianes. crearemos una operacion llamada *distancia* la cual incluira la formulara de Pitagoras, se mandara a llamar con nuestro print para que nos arroje nuestro resultado.
+\
 ![](Programa12(2).png)
+\
+En la ejecucion del programa le pedira al usuario ingresar los valores de distancia el valor de los grados y finalmente nos dara nuestra distancia que existe entre esos dos puntos.
 ## Ejercicio 13: Haciendo el cambio.
 Considere el software que se ejecuta en una máquina de autopago. Una tarea que debe poder realizar es determinar cuánto cambio proporcionar cuando el comprador paga una compra en efectivo. Escriba un programa que comience leyendo una cantidad de centavos del usuario como entero. Luego, su programa debe calcular y mostrar las denominaciones de las monedas que se deben usar para dar esa cantidad de cambio al comprador. El cambio debe darse usando la menor cantidad de monedas posible. Suponga que la máquina está cargada de centavos, monedas de cinco centavos, monedas de diez centavos, cuartos, loonies and toonies.
+\
 ![](Programa13.png)
+\
+
 ![](Programa13(2).png)
 ## Ejercicio 14: Unidades de altura.
 Muchas personas piensan en su altura en pies y pulgadas, incluso en algunos países que utilizan principalmente el sistema métrico. Escriba un programa que lea un número de pies del usuario, seguido de un número de pulgadas. Una vez que se leen estos valores, su programa debe calcular y mostrar el número equivalente de centímetros.
