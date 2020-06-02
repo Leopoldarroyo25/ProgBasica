@@ -228,26 +228,52 @@ En la ejecucion del programa nos pedira los datos de temperatura, presion y volu
 ## Ejercicio 21: Área de un triángulo.
 El área de un triángulo se puede calcular usando la siguiente fórmula, donde b es la longitud de la base del triángulo y h es su altura: área= (b x a)/2
 Escriba un programa que permita al usuario ingresar valores para byh. Luego, el programa debe calcular y mostrar el área de un triángulo con longitud base by altura h.
+\
 ![](Programa21.png)
+\
+En este ejercicio nos pide crear un programa que nos ayude calcular el area de un triangualo para ello le pediremos al ususario que ingrese la base y la altura con *b* y *h* en estas variables el usuario podra agregar la base y la altura, para operacion *area* donde estara la formula para calcular el area del triangulo, solo llamaremos a *area* para que nos arroje nuestro resultado.
+\
 ![](Programa21(2).png)
+\
+En la ejecucion del programa solo le pedira al usuario ingresar la base y la altura y automaticamnete arrojara el resultado.
 ## Ejercicio 22: Área de un triángulo (de nuevo).
 En el ejercicio anterior, creó un programa que calculaba el área de un triángulo cuando se conocía la longitud de su base y su altura. También es posible calcular el área de un triángulo cuando se conocen las longitudes de los tres lados. Sean s1, s2 y s3 las longitudes de los lados. Sea s = (s1 + s2 + s3) / 2. Luego, el área del triángulo se puede calcular utilizando la siguiente fórmula:  area = (srqrt )s × (s − s1) × (s − s2) × (s − s3)
 Desarrolle un programa que lea las longitudes de los lados de un triángulo del usuario y muestre su área.
+\
 ![](Programa22.png)
+\
+En este ejercicio tendremos que calcular el area de un triangulo pero con base a sus longitudes de sus lados para ellos le pediremos al ususario que ingrese las tres longitudes que estan representadas por *s1,s2,s3*, tendremos nuestra formula en *s* donde esta la formula de la sumatoria de las tres para asi en *operacion* tener la formulara que nos calculara nuestra area. mandamos llamar solo operacion a print para representar nuestro resultado. Tendremos que importar la libreria de math para nuestra raiz cuadrada.
+\
 ![](Programa22(2).png)
+\
+En la ejecucion del programa solo nos pedira introduccir las longitudes del triangulo y solo nos mostrara nuestro resultado deseado.
 ## Ejercicio 23: Área de un polígono regular.
 Un polígono es regular si sus lados tienen la misma longitud y los ángulos entre todos los lados adyacentes son iguales. El área de un polígono regular se puede calcular usando la siguiente fórmula, donde s es la longitud de un lado yn es el número de lados: 
 area = (n × s^2)/ ((4 × tan( (π /n))
 Escriba un programa que lea s y n del usuario y luego muestre el área de un polígono regular construido a partir de estos valores.
+\
 ![](Programa23.png)
+\
+En este ejercicio nos pide calcular el area d eun poligono a partir de sus lados y la logitud de uno de sus lados en donde en el programa se representa *n* para su numero de lados y *s* para su longitud, tendremos su operacion en *area* donde se introducira la formula para su calculo, y area se mandara llamar a print para mostrar su resultado.
+\
 ![](Programa23(2).png)
+\
+En la ejecucion del programa el usuario ingresara los datos de los lados y su apotema que es su longitud y automaticamante nos mostrara su resultado.
 ## Ejercicio 24: Unidades de tiempo.
 Cree un programa que lea una duración del usuario como un número de días, horas, minutos y segundos. Calcule y muestre el número total de segundos representado por esta duración.
+\
 ![](Programa24.png)
+\
+En este ejercicio pediremos al usuario que ingrese horas, min, segundos para darle el totarl de duracion en segundos, el usuario indtroducira; horas, minutos y segundos que estos estan representados como *h, m, s* esto seramultiplicado por su equivalencia en segundos en las operaciones de *oh, om* tendremos otra operacion para que sume nuestros resultados en segundos como *op* y finalmente mandaremos llamar a print *op*.
+\
 ![](Programa24(2).png)
+\
+El usuario ingresara sus horas, minutos y segundos, automaticamente el programara arrojara todo en segundos.
 ## Ejercicio 25: Unidades de tiempo 2.
 En este ejercicio revertirá el proceso descrito en el ejercicio anterior. Desarrolle un programa que comience leyendo un número de segundos del usuario. Luego, su programa debe mostrar la cantidad de tiempo equivalente en la forma D: HH: MM: SS, donde D, HH, MM y SS representan días, horas, minutos y segundos respectivamente. Las horas, minutos y segundos deben estar formateados para que ocupen exactamente dos dígitos, con un 0 inicial si es necesario.
 ![](Programa25.png)
+\
+
 ![](Programa25(2).png)
 ## Ejercicio 26: Tiempo actual.
 Python incluye una biblioteca de funciones para trabajar con el tiempo, incluida una función llamada asctime en el módulo de tiempo. Lee la hora actual del reloj interno de la computadora y la devuelve en un formato legible para humanos. Escriba un programa que muestre la hora y fecha actuales. Su programa no requerirá ninguna entrada del usuario.
