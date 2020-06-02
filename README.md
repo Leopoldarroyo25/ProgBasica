@@ -281,22 +281,37 @@ En la ejecucion del programa nos pedira que ingresmos cuandos cuantos segundos e
 ## Ejercicio 26: Tiempo actual.
 Python incluye una biblioteca de funciones para trabajar con el tiempo, incluida una función llamada asctime en el módulo de tiempo. Lee la hora actual del reloj interno de la computadora y la devuelve en un formato legible para humanos. Escriba un programa que muestre la hora y fecha actuales. Su programa no requerirá ninguna entrada del usuario.
 \
-![](Programa26.png)
+![](Programa26(1).png)
 \
-
+En este ejercicio solo nos pide que mostremos con la libreria de *time* el tiempo real, para ello solo es ingresar la linreria del tiempo con *import time* y con el comando *tiempo=time.asctime* podemos ingresar el tiempo y mostarlo
+\
 ![](Programa26(2).png)
+\
+Al ejecutarlo veremos que automaticamente sin hacer nada nos aparece el tiempo de manera real.
 ## Ejercicio 27: Índice de masa corporal
 Escriba un programa que calcule el índice de masa corporal (IMC) de un individuo. Su programa debe comenzar leyendo una altura y un peso del usuario. Luego, debe usar una de las siguientes dos fórmulas para calcular el IMC antes de mostrarlo. Si lee la altura en pulgadas y el peso en libras, el índice de masa corporal se calcula utilizando la siguiente fórmula: BMI = weight/(( height × height)) × 703.
 Si lee la altura en metros y el peso en kilogramos, el índice de masa corporal se calcula utilizando esta fórmula un poco más simple: BMI = weight / (height × height)
+\
 ![](Programa27.png)
+\
+En este ejercicio nos pide que relicemos un programa que nos ayude a calcular nuesta masa muscular a base a nuestra altura y peso, para ello le pediremos al usuario que no proporcione su estatura que sera mostrada como *a* y su peso *p* ingresaremos una operacion llamada *imc* para introducir nuestra formula para calcular la masa corporal. 
+\
 ![](Programa27(2).png)
+\
+En nuestra ejecucion el programa nos pedira que ingremos nuestra altura en metros y nuestro peso en kg y esto automaticamente calculara nuestro IMC.
 ## Ejercicio 28: Escalofríos.
 Cuando el viento sopla en clima frío, el aire se siente aún más frío de lo que realmente es porque el movimiento del aire aumenta la velocidad de enfriamiento de los objetos cálidos, como las personas. Este efecto se conoce como sensación térmica.
 En 2001, Canadá, el Reino Unido y los Estados Unidos adoptaron la siguiente fórmula para calcular el índice de sensación térmica. Dentro de la fórmula Ta está la temperatura del aire en grados Celsius y V es la velocidad del viento en kilómetros por hora. Se puede usar una fórmula similar con diferentes valores constantes con temperaturas en grados Fahrenheit y velocidades del viento en millas por hora.
 WCI = 13.12 + 0.6215T_a − 11.37V^0.16 + 0.3965T_aV^0.16
 Escriba un programa que comience leyendo la temperatura del aire y la velocidad del viento del usuario. Una vez que se hayan leído estos valores, su programa debería mostrar el índice de enfriamiento del viento redondeado al entero más cercano.
+\
 ![](Programa28.png)
+\
+En este ejercicio nos pide que hagamos un programa que nos indique la sensacion termica que existe, para ello el usuario nos propocionara la temperatura en la que se encuentra en grados F y la velocidad del viento en km, para ello utilizaremos *v, T* para nuestras variables y en WCI tendremos la formula para calcular nuestra sensancion termica que exite.
+\
 ![](Programa28(2).png)
+\
+En la ejecucion del programa nos pedira los grados en F y la velocidad que existe, automaticamente el programa nos arrojara la sensasion termica.
 ## Ejercicio 29: Celsius a Fahrenheit y Kelvin.
 Escriba un programa que comience leyendo una temperatura del usuario en grados Celsius. Luego, su programa debe mostrar la temperatura equivalente en grados Fahrenheit y grados Kelvin. Los cálculos necesarios para convertir entre diferentes unidades de temperatura se pueden encontrar en Internet.
 ![](Programa29.png)
