@@ -222,6 +222,7 @@ Escriba un programa que calcule la cantidad de gas en moles cuando el usuario su
 ![](Programa20.png)
 \
 En este ejercicio haremos un programa que nos ayude a calcular la catidad de gas en moles, para ellos el usuario va introducir; temperatura, presion y volumen esto sera dado como *T, P, V* se era la operacion de los gases nombles tendremos nuestra constate *R* y solo se mandara llamar *operacion* a print para ver el resultado.
+\
 ![](Programa20(2).png)
 \
 En la ejecucion del programa nos pedira los datos de temperatura, presion y volumen y nos mostrara automaticamente nuestro resultado en moles.
