@@ -314,12 +314,24 @@ En este ejercicio nos pide que hagamos un programa que nos indique la sensacion 
 En la ejecucion del programa nos pedira los grados en F y la velocidad que existe, automaticamente el programa nos arrojara la sensasion termica.
 ## Ejercicio 29: Celsius a Fahrenheit y Kelvin.
 Escriba un programa que comience leyendo una temperatura del usuario en grados Celsius. Luego, su programa debe mostrar la temperatura equivalente en grados Fahrenheit y grados Kelvin. Los cálculos necesarios para convertir entre diferentes unidades de temperatura se pueden encontrar en Internet.
-![](Programa29.png)
+\
+![](Programa29(1).png)
+\
+En este ejercicio nos pide que hagamos un programa en donde el usuario ingresara grados Celcius y se convertiran a grados, Fahrenheit y kelvin, tendremos nuestra variable *C* para introducir grados celcius y tendremos dos operaciones llamdas *f y k* en ellas se encontraran las formulas para cada equivalencia. Se mandaran llamar por separado para que se muestren cada una de ellas.
+\
 ![](Programa29(2).png)
+\
+En la ejecucion del programa solo le pedira al usuario ingresar los grados celcius para que automaticamente nos den nuestros valores correspondiente.
 ## Ejercicio 30: Unidades de presión.
 En este ejercicio creará un programa que lee la presión del usuario en kilopascales. Una vez que se haya leído la presión, su programa debe informar la presión equivalente en libras por pulgada cuadrada, milímetros de mercurio y atmósferas. Usa tus habilidades de investigación para determinar los factores de conversión entre estas unidades.
+\
 ![](Programa30(1).png)
+\
+En este ejecicio nos pideque realicemos un programa que nos ayude a convertir kilopascales a milimetros de mercurio y a atm, para ello le pediremos al usuario que ingrese los kilopascales con la variable *K*, aremos nuestras operaciones con *mi* y *at*, cada una de ellas las madaremos llamar por separado.
+\
 ![](Programa30(2).png)
+\
+En la ejecucion del programa solo introduciremos los kilopascales y nos mostrara los resultados deseados.
 ## Ejercicio 31: Suma de los dígitos en un entero.
 Desarrolle un programa que lea un número entero de cuatro dígitos del usuario y muestre la suma de los dígitos en el número. Por ejemplo, si el usuario ingresa 3141, entonces su programa debería mostrar 3 + 1 + 4 + 1 = 9.
 ![](Programa31(1).png)
