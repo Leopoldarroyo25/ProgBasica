@@ -271,13 +271,19 @@ En este ejercicio pediremos al usuario que ingrese horas, min, segundos para dar
 El usuario ingresara sus horas, minutos y segundos, automaticamente el programara arrojara todo en segundos.
 ## Ejercicio 25: Unidades de tiempo 2.
 En este ejercicio revertirá el proceso descrito en el ejercicio anterior. Desarrolle un programa que comience leyendo un número de segundos del usuario. Luego, su programa debe mostrar la cantidad de tiempo equivalente en la forma D: HH: MM: SS, donde D, HH, MM y SS representan días, horas, minutos y segundos respectivamente. Las horas, minutos y segundos deben estar formateados para que ocupen exactamente dos dígitos, con un 0 inicial si es necesario.
-![](Programa25.png)
+![](Programa25(1).png)
 \
-
-![](Programa25(2).png)
+En este ejercicio nos piden que el usuario ingrese segundos y el programa diga cuantos dias, horas, minuros y segundos son lo que ha ingresado el usuario en un formado de DD:HH:MM:SS, en donde tendremos nuestras equivalencias a segundos de dias, horas y minutos, tendremos operaciones para cada uno como; *dia, sdia, horas, shoras, minutos, sminutos* mandaremos llamar solo *dia, hora y minutos* en sus vetientes de su orden.
+\
+![](Programa25(3).png)
+\
+En la ejecucion del programa nos pedira que ingresmos cuandos cuantos segundos en total tenemos y nos mostrara en el orden correspondiente.
 ## Ejercicio 26: Tiempo actual.
 Python incluye una biblioteca de funciones para trabajar con el tiempo, incluida una función llamada asctime en el módulo de tiempo. Lee la hora actual del reloj interno de la computadora y la devuelve en un formato legible para humanos. Escriba un programa que muestre la hora y fecha actuales. Su programa no requerirá ninguna entrada del usuario.
+\
 ![](Programa26.png)
+\
+
 ![](Programa26(2).png)
 ## Ejercicio 27: Índice de masa corporal
 Escriba un programa que calcule el índice de masa corporal (IMC) de un individuo. Su programa debe comenzar leyendo una altura y un peso del usuario. Luego, debe usar una de las siguientes dos fórmulas para calcular el IMC antes de mostrarlo. Si lee la altura en pulgadas y el peso en libras, el índice de masa corporal se calcula utilizando la siguiente fórmula: BMI = weight/(( height × height)) × 703.
