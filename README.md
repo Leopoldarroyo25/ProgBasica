@@ -335,19 +335,40 @@ En este ejecicio nos pideque realicemos un programa que nos ayude a convertir ki
 En la ejecucion del programa solo introduciremos los kilopascales y nos mostrara los resultados deseados.
 ## Ejercicio 31: Suma de los dígitos en un entero.
 Desarrolle un programa que lea un número entero de cuatro dígitos del usuario y muestre la suma de los dígitos en el número. Por ejemplo, si el usuario ingresa 3141, entonces su programa debería mostrar 3 + 1 + 4 + 1 = 9.
+\
 ![](Programa31(1).png)
+\
+En este ejercicio se creara un programa en donde el usuario agrega ciertos numeros lo cuales sin agregar una sumatoria los sumara por ejemplo 22= 2+2 =4 para ello daremos *n* para que el usuario ingrese sus numeros de forma entera daremos operaciones de *n1-n4* para que se pueda hacer las operaciones correspondientos y nos pueda dar la suma. finalmente tendremos una de *operaciones* para que sume todos los digitos. Finalmente mandamos llamar solamente operaciones que sera nuestra de los digitos ingresados.
+\
 ![](Programa31(2).png)
+\
+cuando se ejecute el programa nos dira que ingresemos los digitos a sumar y nos dara el resultado automaticamente.
 ## Ejercicio 32: Ordenar 3 enteros.
 Cree un programa que lea tres enteros del usuario y los muestre en orden ordenado (de menor a mayor). Use las funciones min y max para encontrar los valores más pequeños y más grandes. El valor medio se puede encontrar calculando la suma de los tres valores y luego restando el valor mínimo y el valor máximo
+\
 ![](Programa32(1).png)
+\
+En este ejercicio haremos un programa que nos ayude ordenar numeros que el usuario ingrese, para ellos tendremos nuetras variables en donde el usuario ingresara los numeros entereos que seran *a, b, c* tendremos nuestras operaciones que nos ayudaran a ordenar estos numeros que seran *mn-mx* se hara u operacion para ordenar estos numeros que sera *md* tendremos que madnar imprmir nuestros tres variables poniendo de menos a mayo.
+\
 ![](Programa32(2).png)
+\
+Cuando se ejecuta el programa nos pedira ingresar tres numeros al azar y el programa nos dira cual nuestro numero de mayor a menor.
 ## Ejercicio 33: Pan de un día.
 Una panadería vende hogazas de pan por $ 3.49 cada una. El pan de un día tiene un descuento del 60 por ciento. Escriba un programa que comience leyendo la cantidad de hogazas de pan de un día compradas al usuario. Luego, su programa debe mostrar el precio regular del pan, el descuento porque tiene un día de antigüedad y el precio total. Todos los valores deben mostrarse con dos decimales, y los puntos decimales en todos los números deben alinearse cuando el usuario ingresa valores razonables
+\
 ![](Programa33(1).png)
+\
+En este ejercicio nos pide programar a base del costo de un pan cual es el precio de la cantidad de los panes que ingresa el usuario, tenemos que ingresar el descuento y el precio total ya con descuento, para ello le pediremos al usuario que ingrese la cantidad de panes, tendremos nuestras constatnes de descuento y precio de descuento, tendremos tres operaciones que nos ayudaran para que nos aparezca por separado cada cantidad.
+\
 ![](Programa33(2).png)
+\
+Al ejecutar el programa nos dira que ingresemos solo cantidad de los panes y nos aparecera automaticamente cual es el costo del pan sin descuento, el descuento que tendra y cuanto sera el precio total.
 ## Ejercicio 34: ¿Par o impar?.
 Escriba un programa que lea un número entero del usuario. Luego, su programa debe mostrar un mensaje que indique si el número entero es par o impar.
+\
 ![](Programa34(1).png)
+\
+
 ![](Programa34(2).png)
 ## Ejercicio 35: Años de perro.
 Se dice comúnmente que un año humano es equivalente a 7 años de perro. Sin embargo, esta simple conversión no reconoce que los perros alcanzan la edad adulta en aproximadamente dos años. Como resultado, algunas personas creen que es mejor contar cada uno de los primeros dos años humanos como 10.5 años de perro, y luego contar cada año humano adicional como 4 años de perro.
