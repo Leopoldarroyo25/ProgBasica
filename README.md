@@ -367,14 +367,21 @@ Al ejecutar el programa nos dira que ingresemos solo cantidad de los panes y nos
 Escriba un programa que lea un número entero del usuario. Luego, su programa debe mostrar un mensaje que indique si el número entero es par o impar.
 \
 ![](Programa34(1).png)
+En este ejercicio nos nos piden que creemos un programa en dodne el usuario ingrese un numero entero y el programa diga si es par o impar para ello utilizaremos *NE* para que el usuario ingrese su numero, utilizaremos la sentencia if seguido del *NE* % 2 ==1 que esto quiere decir que si el residuo de el numero que ingreso el usuario es igual a 1 sera impara y para decir que si es diferende de 1 se agrega la sentencia else que si no es igual a 1 sera par. 
 \
-
 ![](Programa34(2).png)
+Al ejecutar el programa nos pedira ingresar un numero y automaticamente cuando lo ingresemos nos dira si el numero es par o impar.
 ## Ejercicio 35: Años de perro.
 Se dice comúnmente que un año humano es equivalente a 7 años de perro. Sin embargo, esta simple conversión no reconoce que los perros alcanzan la edad adulta en aproximadamente dos años. Como resultado, algunas personas creen que es mejor contar cada uno de los primeros dos años humanos como 10.5 años de perro, y luego contar cada año humano adicional como 4 años de perro.
 Escriba un programa que implemente la conversión de años humanos a años de perros descritos en el párrafo anterior. Asegúrese de que su programa funcione correctamente para conversiones de menos de dos años humanos y para conversiones de dos o más años humanos. Su programa debe mostrar un mensaje de error apropiado si el usuario ingresa un número negativo.
+\
 ![](Programa35(1).png)
+\
+En este ejercicio no pide que calculemos los años de los perros y si  ya han alzando la vida adulta. 
+\
 ![](Programa35(2).png)
+\
+
 ## Ejercicio 36: Vocal o Consonante.
 En este ejercicio creará un programa que lee una letra del alfabeto del usuario. Si el usuario ingresa a, e, i, o u, entonces su programa debe mostrar un mensaje que indica que la letra ingresada es una vocal. Si el usuario ingresa y, entonces su programa debería mostrar un mensaje que indica que a veces y es una vocal, y a veces y es una consonante. De lo contrario, su programa debería mostrar un mensaje que indica que la letra es una consonante.
 ![](Programa36(1).png)
