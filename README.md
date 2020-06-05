@@ -493,14 +493,23 @@ Escriba un programa que lea un mes y un día del usuario. Si el mes y el día co
 \
 ![](Programa44(1).png)
 \
-
+En este ejercicio haremos un programa que nos indique fechas imporntantes en canada para ellos utilizaremos las fechas que nos indican en la tabla, le pediremos al usuario ingresas el mes y el dia y compararemos con la sentencia if para que el programa indique que fecha importate hemos ingresado.
+\
 ![](Programa44(2).png)
+\
+En la ejecucion del programa nos pedira ingresar el mes y el dia y el programa nos dira automaticamente que fecha importante es.
 ## Ejercicio 45: ¿De qué color es ese cuadrado?.
 Las posiciones en un tablero de ajedrez se identifican con una letra y un número. La letra identifica la columna, mientras que el número identifica la fila, como se muestra a continuación:
 Escriba un programa que lea una posición del usuario. Use una declaración if para determinar si la columna comienza con un cuadrado negro o un cuadrado blanco. Luego use la aritmética modular para informar el color del cuadrado en esa fila. Por ejemplo, si el usuario ingresa a1, su programa debe informar que el cuadrado es negro. Si el usuario ingresa d5, entonces su programa debe informar que el cuadrado es blanco. Su programa puede asumir que siempre se ingresará una posición válida. No necesita realizar ninguna comprobación de errores.
+\
 ![](Programa45.png)
 ![](Programa45(2).png)
+\
+En este ejercicio nos pide que realicemos un programa con el tablero de ajedrez, nosotros meteremos una cordenada y en base a la cordenada que ingresemos el programa nos dira si es color negra o blanca para ella nosotros introduciremos las cordenadas posibles del color negreo y del color blanco. 
+\
 ![](Programa45(3).png)
+\
+En la ejecucio del programa nos dira que ingresemos la cordenada, ingresarla nos dira que color es esta ubicacion.
 ## Ejercicio 46: Temporada de mes y día.
 El año se divide en cuatro estaciones: primavera, verano, otoño e invierno. Si bien las fechas exactas en que cambian las estaciones varían un poco de un año a otro debido a la forma en que se construye el calendario, utilizaremos las siguientes fechas para este ejercicio:
 Spring March 20 
@@ -508,8 +517,14 @@ Summer June 21
 Fall September 22 
 Winter December 21
 Cree un programa que lea un mes y un día del usuario. El usuario ingresará el nombre del mes como una cadena, seguido del día dentro del mes como un entero. Luego, su programa debe mostrar la temporada asociada con la fecha que se ingresó.
+\
 ![](Programa46(1).png)
+\
+En este ejercicio nos pide realizar un programa que nos indique la temporada en la que nos encontramos, para ellos el usuario tendra que introducir el mes y el dia, el programa con la sentencia if compara las fechas que ya sabemos de cada estacion y con ellos el programa nos podra decir en que temporada estamos.
+\
 ![](Programa46(2).png)
+\
+En este proma al ejecutarlo nos pedira el mes y el dia y ingresar los valores nos dira en que temporada nos encontramos.
 ## Ejercicio 47: Fecha de nacimiento astrológica.
 Los horóscopos comúnmente reportados en los periódicos usan la posición del sol en el momento del nacimiento para intentar predecir el futuro. Este sistema de astrología divide el año en doce signos del zodiaco, como se describe en la tabla a continuación:
 Capricorn December 22 to January 19 
