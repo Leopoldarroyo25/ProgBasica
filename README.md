@@ -377,23 +377,41 @@ Escriba un programa que implemente la conversión de años humanos a años de pe
 \
 ![](Programa35(1).png)
 \
-En este ejercicio no pide que calculemos los años de los perros y si  ya han alzando la vida adulta. 
+En este ejercicio nos pide que calculemos los años de los perros y si  ya han alcanzado la vida adulta para ello antes de los 2 años se contara como 10.5 años humanos y despues de ello se contara como año humano, se creara una variable en donde el usuario ingresara años de los perros, dira que si el numero ingresado es menos o igual a los dos años se multiplicara por los 10.5 y se hara una resta y una suma para que este nos de el resultado desado.
 \
 ![](Programa35(2).png)
 \
-
+En la ejecutar el programa nos pedira que ingresemos los años del perro y nos dira cuantos años tiene en realidad el perro.
 ## Ejercicio 36: Vocal o Consonante.
 En este ejercicio creará un programa que lee una letra del alfabeto del usuario. Si el usuario ingresa a, e, i, o u, entonces su programa debe mostrar un mensaje que indica que la letra ingresada es una vocal. Si el usuario ingresa y, entonces su programa debería mostrar un mensaje que indica que a veces y es una vocal, y a veces y es una consonante. De lo contrario, su programa debería mostrar un mensaje que indica que la letra es una consonante.
+\
 ![](Programa36(1).png)
+\
+En este ejercicio se hara un programa que nos ayude a decir que palabra ingresada por el usuario sea una vocal o una consonante, para ellos utilizaremos la sentencia if para poder ingresar todas las vocale de forma en al que el programa iguale la palabra que a introducido el usuario, en dado cado que no sea vocal nos dira que es una consonante.
+\
 ![](Programa36(2).png)
+\
+En la ejecucion del programa nos dira que ingresemos una letra y nos dira si es constatne o es vocal.
 ## Ejercicio 37: Nombra esa forma.
 Escriba un programa que determine el nombre de una forma a partir de su número de lados. Lea el número de lados del usuario y luego informe el nombre apropiado como parte de un mensaje significativo. Su programa debe admitir formas con desde 3 hasta (e incluyendo) 10 lados. Si se ingresa un número de lados fuera de este rango, entonces su programa debería mostrar un mensaje de error apropiado.
+\
 ![](Programa37(1).png)
+\
+En este ejercicio nos piden hacer un programa que nos ayude a decir si es un trangulo, un cuadrado, pentangono, decagono etc., para ello utilizaremos la sentencia if para decirle al programa que iguale el resutados e ingresar si no es igual a 3 no es un triangulo y decirnos qu es en base a sus lados de cada figura geometrica.
+\
 ![](Programa37(2).png)
+\
+Al ejecutar el programa nos dira que ingresemos el numero de lados y nos dira que figura geometrica es.
 ## Ejercicio 38: Nombre del mes a la cantidad de días.
 La duración de un mes varía de 28 a 31 días. En este ejercicio creará un programa que lee el nombre de un mes del usuario como una cadena. Luego, su programa debería mostrar la cantidad de días en ese mes. Muestre “28 o 29 días” para febrero para que se aborden los años bisiestos.
+\
 ![](Programa38(1).png)
+\
+En este ejercicio se hara un programa que nos ayude a decir cuandotos dias tiene el mes que ingreso el usuario, con ayuda de la sentencia if comparemos los meses que tienen solo 30 dias, el que tiene solo 28 o 29 y los que tienen 31 dias solo se hace la comparacion y nos dara el resultado dependiendo el mes.
+\
 ![](Programa38(2).png)
+\
+Al ejecutar el programa nosotros introducimos el mes y nos dira cunatos dias tiene ese mes.
 ## Ejercicio 39: Niveles de sonido.
 La siguiente tabla enumera el nivel de sonido en decibelios para varios ruidos comunes.
 Jackhammer 130db
@@ -401,12 +419,24 @@ Gas lawnmower 106db
  Alarm clock 70db
 Quiet room 40db
 Escriba un programa que lea un nivel de sonido en decibelios del usuario. Si el usuario ingresa un nivel de decibelios que coincide con uno de los ruidos en la tabla, entonces su programa debería mostrar un mensaje que contenga solo ese ruido. Si el usuario ingresa una cantidad de decibelios entre los ruidos enumerados, entonces su programa debe mostrar un mensaje que indique entre qué ruidos se encuentra el nivel. Asegúrese de que su programa también genere salida razonable para un valor más pequeño que el ruido más bajo en la tabla, y para un valor más grande que el ruido más alto en la tabla.
+\
 ![](Programa39.png)
+\
+En este ejercicio nos pide hacer un programa que nos ayude a ver a partir de los decibelios que ingrese el usuario nos diga si es muy ruidoso o muy bajo a partir de una tabla comparemos los valores ingresados con los de la tabla para ello nos podemos ayudar con la sentencia if.
+\
 ![](Programa39(2).png)
+\
+En la ejecucion del programa nos pedira ingresar el nivel de dB y el programa nos dira si es muy bajo o muy alto o medio.
 ## Ejercicio 40: Nombra ese triángulo.
 Un triángulo se puede clasificar en función de la longitud de sus lados como equilátero, isósceles o escaleno. Los 3 lados de un triángulo equilátero tienen la misma longitud. Un triángulo isósceles tiene dos lados que tienen la misma longitud y un tercer lado que tiene una longitud diferente. Si todos los lados tienen diferentes longitudes, entonces el triángulo es escaleno. Escriba un programa que lea las longitudes de 3 lados de un triángulo del usuario. Mostrar un mensaje que indique el tipo de triángulo
+\
 ![](Programa40(1).png)
+\
+En este ejercicio nos pide hacer un programa que nos diga que tipo de triangulo es a partir de la longitud de sus tres lados para ellos nos ayudaremos de trigonometria para poder decidir como seran nuestras sentecias e igualarlas para que el progra con ayuda de la sentencia if comparemos los valores ingresados y nos diga que tipo de triangulo es.
+\
 ![](Programa40(2).png)
+\
+En la ejecucion del programa nos dira que ingresemos las 3 longitudes y automaticamente nos dira que tipo de triandulo tenemos.
 ## Ejercicio 41: Nota a frecuencia.
 La siguiente tabla enumera una octava de notas musicales, comenzando con C central, junto con sus frecuencias.
 C4 261.63hz
@@ -417,12 +447,24 @@ G4 392.00hz
 A4 440.00hz
  B4 493.88hz
 Comience escribiendo un programa que lea el nombre de una nota del usuario y muestre la frecuencia de la nota. Su programa debe admitir todas las notas enumeradas anteriormente. Una vez que tenga su programa funcionando correctamente para las notas enumeradas anteriormente, debe agregar soporte para todas las notas de C0 a C8. Si bien esto podría hacerse agregando muchos casos adicionales a su declaración if, dicha solución es engorrosa, inelegante e inaceptable para los propósitos de este ejercicio. En cambio, debe explotar la relación entre las notas en octavas adyacentes. En particular, la frecuencia de cualquier nota en octava n es la mitad de la frecuencia de la nota correspondiente en octava n + 1. Al usar esta relación, debería poder agregar soporte para las notas adicionales sin agregar casos adicionales a su declaración if.
+\
 ![](Programa41(1).png)
+\
+En este ejercicio nos pide que programemos a partir de una tabla la frecuncia cunado el usuario ingresa el tipo de nota que tiene y el programa arroje a cuantos hz esta la nota para ellos se compararan a partir de sentencia if los valores de la tabla.
+\
 ![](Programa41(2).png)
+\
+Cuando el uduario ingresa una nota nos dira automatcamente la frecuancia a la que esta esa nota ingresada.
 ## Ejercicio 42: Frecuencia a tener en cuenta.
 En la pregunta anterior, convertiste del nombre de la nota a la frecuencia. En esta pregunta escribirás un programa que revierte ese proceso. Comience leyendo una frecuencia del usuario. Si la frecuencia está dentro de un Hertz de un valor que figura en la tabla de la pregunta anterior, informe el nombre de la nota. De lo contrario, informe que la frecuencia no corresponde a una nota conocida. En este ejercicio solo necesita considerar las notas enumeradas en la tabla. No hay necesidad de considerar notas de otras octavas.
+\
 ![](Programa42(1).png)
+\
+En este ejercicio con ayuda del programa anterior nos dira apartir de la frecuancia que el usuario ingrese nos diata que nota es la que esta en esa frecuencia.
+\
 ![](Programa42(2).png)
+\
+en la ejecucion solo introduciremos el valor de la frecuencia y nos arrojara la nota en la que se encuentra.
 ## Ejercicio 43: Caras sobre el dinero.
 Es común que las imágenes de los líderes anteriores de un país, u otras personas de importancia histórica, aparezcan en su dinero. Las personas que aparecen en los billetes en los Estados Unidos se enumeran en la Tabla.
 Escriba un programa que comience leyendo la denominación de un billete del usuario. Luego, su programa debe mostrar el nombre de la persona que aparece en el
@@ -434,15 +476,24 @@ Andrew Jackson $20
 Ulysses S. Grant $50 
 Benjamin Franklin $100
 billete de la cantidad ingresada. Se debe mostrar un mensaje de error apropiado si no existe dicha nota.
+\
 ![](Programa43(1).png)
+\
+En este ejercicio nos pide que realicemos un programa en donde el usuario introducira el valor de un billete y nos dira que personaje historico existe en el billete dependiendo del valor del billete, para ello se comparara con la sentencia if cada billete con su valor para que en el resultado nos dija que pesonaje existe.
+\
 ![](Programa43(2).png)
+\
+En la ejecucion del programa nos preguntara de que denominacion es nuestro billete y nos dira quien es el personaje historio que existe en el.
 ## Ejercicio 44: Fecha de nombre de vacaciones.
 Canadá tiene tres feriados nacionales que caen en las mismas fechas cada año.
 New year’s day January 1 
 Canada day July 1 
 Christmas day December 25
 Escriba un programa que lea un mes y un día del usuario. Si el mes y el día coinciden con uno de los feriados enumerados anteriormente, entonces su programa debería mostrar el nombre del feriado. De lo contrario, su programa debería indicar que el mes y el día ingresados no corresponden a un día festivo de fecha fija.
+\
 ![](Programa44(1).png)
+\
+
 ![](Programa44(2).png)
 ## Ejercicio 45: ¿De qué color es ese cuadrado?.
 Las posiciones en un tablero de ajedrez se identifican con una letra y un número. La letra identifica la columna, mientras que el número identifica la fila, como se muestra a continuación:
