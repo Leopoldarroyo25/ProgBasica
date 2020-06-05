@@ -522,7 +522,7 @@ Cree un programa que lea un mes y un día del usuario. El usuario ingresará el 
 \
 En este ejercicio nos pide realizar un programa que nos indique la temporada en la que nos encontramos, para ellos el usuario tendra que introducir el mes y el dia, el programa con la sentencia if compara las fechas que ya sabemos de cada estacion y con ellos el programa nos podra decir en que temporada estamos.
 \
-![](Programa46(2).png)
+![](Programa46.png)
 \
 En este proma al ejecutarlo nos pedira el mes y el dia y ingresar los valores nos dira en que temporada nos encontramos.
 ## Ejercicio 47: Fecha de nacimiento astrológica.
@@ -540,8 +540,14 @@ Libra September 23 to October 22
 Scorpio October 23 to November 21 
 Sagittarius November 22 to December 21
 Escriba un programa que le pida al usuario que ingrese su mes y día de nacimiento. Luego, su programa debe informar el signo zodiacal del usuario como parte de un mensaje de salida apropiado.
+\
 ![](Programa47(1).png)
+\
+En este ejercicio se hara un programa que nos ayude a decir que tipo de signo somos pidiendole al usuario ingresar su fecha de nacimiento le pediremos que ingrese su mes y su dia, ayudandonos con la tabla podremos hacer la compracion con los valores ingresados y con los que estan en la tabla con la sentencia if.
+\
 ![](Programa47(2).png)
+\
+Al ejecutar el programa vemos como nos pide ingrsar nuestro dia y mes de nacimiento para que automaticamente nos diga que signo somos.
 ## Ejercicio 48: Zodiaco chino.
 El zodiaco chino asigna animales a años en un ciclo de 12 años. Un ciclo de 12 años se muestra en la tabla a continuación. El patrón se repite a partir de ahí, con 2012 siendo otro año del dragón, y 1999 siendo otro año de la liebre.
 2000 Dragon 
@@ -557,8 +563,13 @@ El zodiaco chino asigna animales a años en un ciclo de 12 años. Un ciclo de 12
 2010 Tiger 
 2011 Hare
 Escriba un programa que lea un año del usuario y muestre el animal asociado con ese año. Su programa debería funcionar correctamente durante cualquier año mayor o igual a cero, no solo los que figuran en la tabla
+\
 ![](Programa48(1).png)
+\
+En este ejercicio nos pide hagamos un programa a base de los años chinos, para ellos con ayuda de la tabla nos guiaremos para que los compermos con el año que ingrese el usuario.
 ![](Programa48(2).png)
+\
+En la ejecucion del programa solo nos pedira que ingresemos el año y nos dira que animal le corresponde al año.
 ## Ejercicio 49: Escala de richter.
 La siguiente tabla contiene rangos de magnitud de terremotos en la escala de Richter y sus descriptores:
 Less than 2.0 Micro 
@@ -571,14 +582,23 @@ Less than 2.0 Micro
 8.0 to less than 10.0 Great 
 10.0 or more Meteoric
 Escriba un programa que lea una magnitud del usuario y muestre el descriptor apropiado como parte de un mensaje significativo. Por ejemplo, si el usuario ingresa 5.5, su programa debe indicar que un terremoto de magnitud 5.5 se considera un terremoto moderado.
+\
 ![](Programa49(1).png)
+\
+En ejercicio nos pide crear un programa que nos diga a base de la escala Richter que tan fuerte es el temblor, para ellos nos ayudaremos de la tabla para poder comparar resultados ingresados por el usuario con los de la tabla y nos diga que tan fuerte es el temblor.
+\
 ![](Programa49(2).png)
+El programa solo nos pedira ingresar la escala y nos mostrara que tan fuerte es el temblor.
 ## Ejercicio 50: Raíces de una función cuadrática.
 Una función cuadrática univariada tiene la forma f (x) = ax2 + bx + c, donde a, byc son constantes, y a no es cero. Las raíces de una función cuadrática se pueden encontrar al encontrar los valores de x que satisfacen la ecuación cuadrática ax2 + bx + c = 0. Una función cuadrática puede tener 0, 1 o 2 raíces reales. Estas raíces se pueden calcular utilizando la fórmula cuadrática, que se muestra a continuación: root = −b ± √ b2 − 4ac/2a
 La parte de la expresión debajo del signo de raíz cuadrada se llama discriminante. Si el discriminante es negativo, entonces la ecuación cuadrática no tiene raíces reales. Si el discriminante es 0, entonces la ecuación tiene una raíz real. De lo contrario, la ecuación tiene dos raíces reales, y la expresión debe evaluarse dos veces, una vez con un signo más y otra con un signo menos, al calcular el numerador.
 Escriba un programa que calcule las raíces reales de una función cuadrática. Su programa debe comenzar solicitando al usuario los valores de a, byc. Luego, debe mostrar un mensaje que indique el número de raíces reales, junto con los valores de las raíces reales (si las hay)
+\
 ![](Programa50(1).png)
+En este ejercicio nos pide que calculemos las raices de una funcion cuadratica a base de la dormula general para ello le pediremos al usuario ingrese su valores respectivamente como *a,b,c*. con base a esos valores se calcularan.
+\
 ![](Programa50(2).png)
+Al ejecutar el programa nos pedira ingresar nuestros valores, para poder calular y nos mostara las raices que existen en el.
 ## Ejercicio 51: Calificación de letras a puntos de calificación.
 En una universidad en particular, las calificaciones con letras se asignan a los puntos de calificación de la siguiente manera:
 A+ 	4.0
