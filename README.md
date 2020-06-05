@@ -567,6 +567,7 @@ Escriba un programa que lea un año del usuario y muestre el animal asociado con
 ![](Programa48(1).png)
 \
 En este ejercicio nos pide hagamos un programa a base de los años chinos, para ellos con ayuda de la tabla nos guiaremos para que los compermos con el año que ingrese el usuario.
+\
 ![](Programa48(2).png)
 \
 En la ejecucion del programa solo nos pedira que ingresemos el año y nos dira que animal le corresponde al año.
@@ -588,6 +589,7 @@ Escriba un programa que lea una magnitud del usuario y muestre el descriptor apr
 En ejercicio nos pide crear un programa que nos diga a base de la escala Richter que tan fuerte es el temblor, para ellos nos ayudaremos de la tabla para poder comparar resultados ingresados por el usuario con los de la tabla y nos diga que tan fuerte es el temblor.
 \
 ![](Programa49(2).png)
+\
 El programa solo nos pedira ingresar la escala y nos mostrara que tan fuerte es el temblor.
 ## Ejercicio 50: Raíces de una función cuadrática.
 Una función cuadrática univariada tiene la forma f (x) = ax2 + bx + c, donde a, byc son constantes, y a no es cero. Las raíces de una función cuadrática se pueden encontrar al encontrar los valores de x que satisfacen la ecuación cuadrática ax2 + bx + c = 0. Una función cuadrática puede tener 0, 1 o 2 raíces reales. Estas raíces se pueden calcular utilizando la fórmula cuadrática, que se muestra a continuación: root = −b ± √ b2 − 4ac/2a
@@ -595,9 +597,11 @@ La parte de la expresión debajo del signo de raíz cuadrada se llama discrimina
 Escriba un programa que calcule las raíces reales de una función cuadrática. Su programa debe comenzar solicitando al usuario los valores de a, byc. Luego, debe mostrar un mensaje que indique el número de raíces reales, junto con los valores de las raíces reales (si las hay)
 \
 ![](Programa50(1).png)
+\
 En este ejercicio nos pide que calculemos las raices de una funcion cuadratica a base de la dormula general para ello le pediremos al usuario ingrese su valores respectivamente como *a,b,c*. con base a esos valores se calcularan.
 \
 ![](Programa50(2).png)
+\
 Al ejecutar el programa nos pedira ingresar nuestros valores, para poder calular y nos mostara las raices que existen en el.
 ## Ejercicio 51: Calificación de letras a puntos de calificación.
 En una universidad en particular, las calificaciones con letras se asignan a los puntos de calificación de la siguiente manera:
