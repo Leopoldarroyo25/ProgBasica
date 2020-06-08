@@ -618,20 +618,39 @@ D+ 	1.3
 D 	1.0
 F 	0
 Escriba un programa que comience leyendo una calificación de letra del usuario. Luego, su programa debe calcular y mostrar el número equivalente de puntos de calificación. segúrese de que su programa genere un mensaje de error apropiado si el usuario ingresa una calificación de letra no válida
+\                   
 ![](Programa51(1).png)
-![](Programa52(2).png)
+![](Programa51(2).png)
+\
+En este programa lo que haremos es crear un programa que nos ayude a ingresar calificaciones a partir de letras, comparemos la tabla mostrada con las letras que nosotros le daremos al programa que nos diga que valor tiene cada letra ingresada, con ayuda de la sentencia if daremos solucion a este programa.
+\
+![](Programa51(3).png)
+\
+como vemos en la ejecucion le pedimos al usuario ingresar una letra de las mencioncionadas en la tabla y nos dira cuanto vale cada una.
 ## Ejercicio 52: Calificación de puntos a calificación de letras.
 En el ejercicio anterior, creó un programa que convierte una calificación de letra en el número equivalente de puntos de calificación. En este ejercicio creará un programa que invierte el proceso y convierte de un valor de calificación ingresado por el usuario a una calificación de letra. Asegúrese de que su programa maneje los valores de calificación que se encuentran entre las calificaciones de las letras. Estos deben redondearse al grado de letra más cercano. Su programa debe reportar A + para un promedio de calificaciones de 4.0 (o más).
+\
 ![](Programa52(1).png)
+\
+En este ejecicio es similar al anterior ahora lo que se hara es que nosotros ingresmos un valor numerico y este nos dira cuanto vale en una letra especifica. Con ayuda de la tabla y el programa anterior podemos ver que no es util utilizar la sentencia if.
+\
 ![](Programa52(2).png)
+\
+Ahora nosotros ingresamos un numero a este programa y nos arrojara cuando vale en fomra de ltra.
 ## Ejercicio 53: Evaluar empleados.
 En una empresa en particular, los empleados son calificados al final de cada año. La escala de calificación comienza en 0.0, con valores más altos que indican un mejor rendimiento y que resultan en aumentos mayores. El valor otorgado a un empleado es 0.0, 0.4 o 0.6 o más. Los valores entre 0.0 y 0.4, y entre 0.4 y 0.6 nunca se usan. El significado asociado con cada calificación se muestra en la siguiente tabla. El monto del aumento de un empleado es de $ 2400.00 multiplicado por su calificación.
 0.0 	Unacceptable performance
 0.4 	Acceptable performance
 0.6 or more 	Meritorious performance
 Escriba un programa que lea una calificación del usuario e indique si el rendimiento fue inaceptable, aceptable o meritorio. También se debe informar el monto del aumento del empleado. Su programa debe mostrar un mensaje de error apropiado si se ingresa una calificación no válida.
+\
 ![](Programa53(1).png)
+\
+Para este ejercicio haremos un programa que nos pida el desempeño en una personsa para una empresa dicho desempeño lo encontraremos en el ejercicio este nos dira como fue el desempeño y le dara una comison dependiendo del sempeño, esto no es mas que una comparacion de lo que nos da el ejercicio con lo que queremos que nos de el programa esto tambien podemos ayudarnos de una sentencia del if.
+\
 ![](Programa53(2).png)
+\ 
+En la ejecucion del programa nos pedira ingresar la clasifiacion del desempeño y automaticamente nos dira cual fue su rendimiento y cuando es su aumento por su rendimiento.
 ## Ejercicio 54: Longitudes de onda de luz visible.
 The wavelength of visible light ranges from 380 to 750 nanometers (nm). While the
 spectrum is continuous, it is often divided into 6 colors as shown below: 
@@ -642,8 +661,14 @@ Yellow 	570 to less than 590
 Orange 	590 to less than 620
 Red 	620 to 750
 Escriba un programa que lea una longitud de onda del usuario e informe su color. Muestre un mensaje de error apropiado si la longitud de onda ingresada por el usuario está fuera del espectro visible.
+\
 ![](Programa54(1).png)
+\
+En este ejecicio haremos un programa que nos diga el color de onda a traves de la longitud de onda que ingresemos para ellos comparemos la tabla que tenmos con sentencias if para cada color y para cada valor de longitud.
+\
 ![](Programa54(2).png)
+\
+En la ejecucion del programa nos dira que ingresemos en logitud de onda y nos diara en que color se encuentra cada longitud.
 ## Ejercicio 55: Frecuencia para nombrar.
 La radiación electromagnética se puede clasificar en una de las 7 categorías según su frecuencia, como se muestra en la tabla a continuación:
 Radio waves 	Less than 3 × 109
@@ -654,13 +679,25 @@ Ultraviolet light 	7.5 × 1014 to less than 3 × 1017
 X-rays 	3 × 1017 to less than 3 × 1019
 Gamma rays 	3 1019 or more
 Escriba un programa que lea la frecuencia de la radiación del usuario y muestre el nombre apropiado.
+\
 ![](Programa55(1).png)
+\
+En este ejercicio haremos un programa que nos ayude a leer la frecuencia de las radiaciones para ellos le diremos al usuario que ingrese la frecuencia y el programa nos dira el nombre de esta frecuencia, para ello compararemos con la tabla que nos muestra y la ingresaremos en el programa con sentencias if.
+\
 ![](Programa55(2).png)
+\
+En la ejecucion del programa se ingresara la frecuencia y nos idra a que pertenece este valor de frecuencia.
 ## Ejercicio 56: Bill de teléfono celular.
 Un plan de teléfono celular en particular incluye 50 minutos de tiempo de aire y 50 mensajes de texto por $15.00 al mes. Cada minuto adicional de tiempo de aire cuesta $0.25, mientras que los mensajes de texto adicionales cuestan $0.15 cada uno. Todas las facturas de teléfono celular incluyen un cargo adicional de $0.44 para apoyar a los centros de llamadas 911, y toda la factura (incluyendo el cargo de 911) está sujeta a 5 por ciento de impuestos sobre las ventas.
 Escriba un programa que lea la cantidad de minutos y mensajes de texto utilizados en un mes por parte del usuario. Muestre el cargo base, el cargo adicional por minutos (si corresponde), el cargo adicional por mensaje de texto (si corresponde), la tarifa del 911, el impuesto y el monto total de la factura. Solo muestre los cargos adicionales por minutos y mensajes de texto si el usuario incurrió en costos en estas categorías. Asegúrese de que todos los cargos se muestren con 2 decimales.
+\
 ![](Programa56(1).png)
+\
+En este ejercicio nos pide que hagamos un programa que nos diga cuantos minutos y mensajes se utiliza en un mes y en base a ello nos muestre un cargo base, los impuestos y el monto toral que se tiene que pagar, para esto tomaos en cuenta los valores dados en el problema y comparalos con los que ingresa el usuario, para esto utilizatemos las sentencias if.
+\
 ![](Programa56(2).png)
+\
+En la ejecucion del programa pediremos ingresar al usuario cuantos minutos ha echo por mes, cuantos mensajes e un mes y automaticamante el programa nos dira el cargo extra y los impuestos.
 ## Ejercicio 57: ¿Es un año bisiesto?.
 La mayoría de los años tienen 365 días. Sin embargo, el tiempo necesario para que la Tierra orbite el Sol es en realidad un poco más que eso. Como resultado, un día adicional, el 29 de febrero, se incluye en algunos años para corregir esta diferencia. Estos años se conocen como años bisiestos. Las reglas para determinar si un año es o no un año bisiesto son las siguientes:
 • Cualquier año que sea divisible por 400 es un año bisiesto. 
@@ -668,16 +705,27 @@ La mayoría de los años tienen 365 días. Sin embargo, el tiempo necesario para
 • De los años restantes, cualquier año que sea divisible por 4 es un año bisiesto.
  • Todos los demás años no son años bisiestos.
 Escriba un programa que lea un año del usuario y muestre un mensaje que indique si es o no un año bisiesto.
+\
 ![](Programa57(1).png)
+\
+En esete ejecicio haremos un programa que nos ayude a decir si un año es bisiesto o no para esto utilizaremos la sentecia if y con los datos del problema podemos comopar el año ingresado y nos pueda decir si es un año bisiesto o no.
 ![](Programa57(2).png)
+\
+En la ejecucion del programa nos dira que ingresemos el año y nos arrojara si el año es o no bisiesto.
 ## Ejercicio 58: Día siguiente.
 Writeaprogramthatreadsadatefromtheuserandcomputesitsimmediatesuccessor. Por ejemplo, si el usuario escribe valores que representan 2013-11-18, el programa debe mostrar un mensaje que indique que el día inmediatamente después de 2013-11-18 es 2013-11-19. Si el usuario introduce valores que representan 2013-11-30, el programa debe indicar que el día siguiente es 2013-12-01. Si el usuario introduce valores que representan 2013-12-31, el programa debe indicar que el día siguiente es 2014-01-01. La fecha se introducirá en forma numérica con tres instrucciones de entrada separadas; uno para el año, uno para el mes, y otro para el día. Asegúrese de que el programa funciona correctamente durante los años bisiestos.
+\
 ![](Programa58(1).png)
+\
+
 ![](Programa58(2).png)
 ## Ejercicio 59: ¿Es válida una matrícula?.
 En una jurisdicción en particular, las matrículas más antiguas consisten en tres letras mayúsculas seguidas de tres números. Cuando se habían utilizado todas las matrículas que seguían ese patrón, el formato se cambiaba a cuatro números seguidos de tres letras mayúsculas. Escriba un programa que comience leyendo una cadena de caracteres del usuario. A continuación, el programa debe mostrar un mensaje que indique si los caracteres son válidos para una matrícula de estilo más antiguo o una placa de matrícula de estilo más reciente. El programa debe mostrar un mensaje adecuado si la cadena introducida por el usuario no es válida para ningún estilo de matrícula.
+\
 ![](Programa59(1).png)
+\
 ![](Programa59(2).png)
+\
 ## Ejercicio 60: Pagos de ruleta.
 Una ruleta tiene 38 espacios. De estos espacios, 18 son negros, 18 son rojos y dos son verdes. Los espacios verdes están numerados 0 y 00. Los espacios rojos están numerados 1, 3, 5, 7, 9, 12, 14, 16, 18, 19, 21, 23, 25, 27, 30 32, 34 y 36. Los enteros restantes entre 1 y 36 se utilizan para numerar los espacios negros.
  Muchas apuestas diferentes se pueden realizar en la ruleta. Sólo consideraremos el siguiente subconjunto de ellos en este ejercicio: 
@@ -686,26 +734,39 @@ Una ruleta tiene 38 espacios. De estos espacios, 18 son negros, 18 son rojos y d
 • Impar frente a par (Tenga en cuenta que 0 y 00 no pagan por par)
 • 1 a 18 frente a 19 a 36 
 Escriba un programa que simule un giro de una ruleta utilizando el generador de números aleatorios de Python. Muestra el número seleccionado y todas las apuestas que deben pagarse. Por ejemplo, si se selecciona 13, el programa debe mostrar: El giro dio como resultado 13... Pagar 13 Pagar Black Pay Odd Pay 1 a 18 Si la simulación da como resultado 0 o 00, entonces su programa debe mostrar Pay 0 o Pay 00 sin ninguna salida adicional.
+\
 ![](Programa60(1).png)
+\
 ![](Programa60(2).png)
+\
 ## Ejercicio 61: Promedio.
 En este ejercicio creará un programa que calcula el promedio de una colección de valores introducidos por el usuario. El usuario introducirá 0 como un valor centinela para indicar que no se proporcionarán más valores. El programa debe mostrar un mensaje de error adecuado si el primer valor introducido por el usuario es 0.
+\
 ![](Programa61(1).png)
+\
 ![](Programa61(2).png)
+\
 ## Ejercicio 62: Tabla de descuento.
 Un minorista en particular está teniendo un 60 por ciento de descuento en la venta en una variedad de productos descontinuados. El minorista desea ayudar a sus clientes a determinar el precio reducido de la mercancía al tener una tabla de descuentos impresa en el estante que muestra los precios originales y los precios después de que se haya aplicado el descuento. Escriba un programa que utilice un bucle para generar esta tabla, mostrando el precio original, el monto del descuento y el nuevo precio para compras de $4.95, $9.95, $14.95, $19.95 y $24.95. Asegúrese de que los importes de descuento y los nuevos precios se redondean a 2 decimales cuando se muestren
+\
 ![](Programa62(1).png)
+\
 ![](Programa62(2).png)
+\
 ## Ejercicio 63: Tabla de conversión de temperatura.
 Escriba un programa que muestre una tabla de conversión de temperatura para grados Celsius y grados Fahrenheit. La tabla debe incluir filas para todas las temperaturas entre 0 y 100 grados Celsius que son múltiplos de 10 grados Celsius. Incluya encabezados apropiados en las columnas. La fórmula para convertir entre grados Celsius y grados Fahrenheit se puede encontrar en Internet
-
+\
 ![](Programa63(1).png)
+\
 ![](Programa63(2).png)
+\
 ## Ejercicio 64: No más centavos.
 El 4 de febrero de 2013 fue el último día en que los centavos fueron distribuidos por la Real Casa de la Moneda Canadiense. Ahora que los centavos han sido eliminados, los minoristas deben ajustar los totales para que sean múltiplos de 5 centavos cuando se paguen con efectivo (las transacciones con tarjeta de crédito y tarjeta de débito se siguen cobrando al centavo). Mientras que los minoristas tienen cierta libertad en la forma en que hacen esto, la mayoría optan por redondear al níquel más cercano. Escriba un programa que lea los precios del usuario hasta que se introduzca una línea en blanco. Visualice el coste total de todos los artículos introducidos en una línea, seguido del importe adeudado si el cliente paga con efectivo en una segunda línea. El importe adeudado por un pago en efectivo debe redondearse al níquel más cercano. Una manera de calcular el monto del pago en efectivo es comenzar determinando cuántos centavos se necesitarían para pagar el total. A continuación, calcule el resto cuando este número de centavos se divide por 5. Por último, ajuste el total hacia abajo si el resto es menor que 2,5. De lo contrario, ajuste el total hacia arriba.
-
+\
 ![](Programa64(1).png)
+\
 ![](Programa64(2).png)
+\
 ## Ejercicio 65: Calcular el perímetro de un polígono.
 Escriba un programa que calcule el perímetro de un polígono. Comience leyendo los valores x e y para el primer punto en el perímetro del polígono del usuario. A continuación, continúe leyendo pares de valores x e y hasta que el usuario escriba una línea en blanco para la coordenada x. Cada vez que lea una coordenada adicional, debe calcular la distancia hasta el punto anterior y agregarla al perímetro. Cuando se introduce una línea en blanco para la coordenada X, el programa debe agregar la distancia desde el último punto hasta el primer punto hasta el perímetro. Entonces debe mostrar el perímetro total. La entrada y salida de muestra se muestra a continuación, con la entrada del usuario mostrada en negrita:
 Enter the x part of the coordinate: 0
@@ -716,38 +777,50 @@ Enter the x part of the coordinate: (blank to quit): 0
 Enter the y part of the coordinate: 1
 Enter the x part of the coordinate: (blank to quit):
 The perimeter of that polygon is 3.414213562373095
-
+\
 ![](Programa65(1).png)
+\
 ![](Programa65(2).png)
+\
 ## Ejercicio 66: Calcular un promedio de calificaciones.
 El ejercicio 51 incluyó una tabla que muestra la conversión de calificaciones de letras a puntos de calificación en una institución académica en particular. En este ejercicio calculará el promedio de puntos de calificación de un número arbitrario de calificaciones de letras introducidas por el usuario. El usuario introducirá una línea en blanco para indicar que se han proporcionado todas las calificaciones. Por ejemplo, si el usuario escribe A, seguido de C+, seguido de B, seguido de una línea en blanco, el programa debe informar de un promedio de puntos de calificación de 3.1. Puede resultarle útil que le resulte útil su solución al Ejercicio 51 al completar este ejercicio. Su programa no necesita realizar ninguna comprobación de errores. Puede suponer que cada valor introducido por el usuario siempre será una calificación de letra válida o una línea en blanco.
-
+\
 ![](Programa66(1).png)
+\
 ![](Programa66(2).png)
+\
 ## Ejercicio 67: Precio de admisión.
 Un zoológico en particular determina el precio de la entrada en función de la edad del huésped. Los huéspedes de 2 años o menos son admitidos sin cargo. Los niños de entre 3 y 12 años de edad cuestan $14.00. Las personas mayores de 65 años cuestan $18.00. La entrada para todos los demás huéspedes es de $23.00. Crea un programa que comience leyendo las edades de todos los invitados de un grupo del usuario, con una edad introducida en cada línea. El usuario introducirá una línea en blanco para indicar que no hay más invitados en el grupo. A continuación, el programa debe mostrar el coste de admisión para el grupo con un mensaje adecuado. El costo debe mostrarse utilizando dos decimales.
-
+\
 ![](Programa67(1).png)
+\
 ![](Programa67(2).png)
+\
 ## Ejercicio 68: Bits de paridad.
 Un bit de paridad es un mecanismo simple para detectar errores en los datos transmitidos a través de una conexión poco fiable, como una línea telefónica. La idea básica es que un bit adicional se transmite después de cada grupo de 8 bits para que se pueda detectar un solo error de bit en la transmisión. Los bits de paridad se pueden calcular para paridad uniforme o paridad impar. Si se selecciona paridad incluso, entonces el bit de paridad que se transmite se elige de modo que el número total de un bits transmitidos (8 bits de datos más el bit de paridad) sea par. Cuando se selecciona la paridad impar, se elige el bit de paridad para que el número total de un bit transmitido sea impar.
 Escriba un programa que calcule el bit de paridad para grupos de 8 bits introducidos por el usuario utilizando paridad uniforme. El programa debe leer cadenas que contengan 8 bits hasta que el usuario introduzca una línea en blanco. Después de que el usuario introduzca cada cadena, el programa debe mostrar un mensaje claro que indique si el bit de paridad debe ser 0 o 1. Muestre un mensaje de error apropiado si el usuario ingresa algo distinto de 8 bits. 
-
+\
 ![](Programa68(1).png)
+\
 ![](Programa68(2).png)
+\
 ## Ejercicio 69: π aproximado.
 El valor de la serie infinita se puede aproximar a la siguiente serie infinita:
 π ≈ 3 + 4/( 2 × 3 × 4 ) – 4/ (4 × 5 × 6) + 4/ (6 × 7 × 8 )– 4 /(8 × 9 × 10)+ 4/( 10 × 11 × 12) - · · ·
 Escriba un programa que muestre 15 aproximaciones de . La primera aproximación debe hacer uso sólo del primer término de la serie infinita. Cada aproximación adicional mostrada por su programa debe incluir un término más en la serie, por lo que es una mejor aproximación de la clase de tipo "que cualquiera de las aproximaciones mostradas anteriormente"
-
+\
 ![](Programa69(1).png)
+\
 ![](Programa69(2).png)
+\
 ## Ejercicio 70: Cifrado César
 Uno de los primeros ejemplos conocidos de cifrado fue utilizado por Julio César. César necesitaba dar instrucciones escritas a sus generales, pero no quería que sus enemigos aprendieran sus planes si el mensaje se les escapaba a las manos. Como resultado, desarrolló lo que más tarde se conoció como el Cifrado César. La idea detrás de este cifrado es simple (y como resultado, no proporciona protección contra las técnicas modernas de ruptura de código). Cada letra del mensaje original se desplaza por 3 lugares. Como resultado, A se convierte en D, B se convierte en E, C se convierte en F, D se convierte en G, etc. Las últimas tres letras del alfabeto se envuelven al principio: X se convierte en A, Y se convierte en B y Z se convierte en C. Los caracteres no letra no son modificados por el cifrado.
 Escriba un programa que implemente un cifrado César. Permita que el usuario proporcione el mensaje y el importe del desplazamiento y, a continuación, muestre el mensaje desplazado. Asegúrese de que el programa codifica letras mayúsculas y minúsculas. El programa también debe admitir valores de desplazamiento negativos para que se pueda utilizar tanto para codificar mensajes como para decodificar mensajes.
-
+\
 ![](Programa70(1).png)
+\
 ![](Programa70(2).png)
+\
 ## Ejercicio 71: Raíz cuadrada.
 Escriba un programa que implemente el método de Newton para calcular y mostrar la raíz cuadrada de un número introducido por el usuario. El algoritmo para el método de Newton sigue:
 
@@ -757,23 +830,33 @@ While guess is not good enough do
 Update guess to be the average of guess and x/guess
 
 Cuando se completa este algoritmo, la conjetura contiene una aproximación de la raíz cuadrada. La calidad de la aproximación depende de cómo defina "suficientemente bueno". En la solución del autor, la conjetura se consideró lo suficientemente buena cuando el valor absoluto de la diferencia entre guess ∗ guess y x was less than or equal to10-12 
-
+\
 ![](Programa71(1).png)
+\
 ![](Programa71(2).png)
+\
 ## Ejercicio 72: ¿Es una cuerda un palíndromo?.
 Una cadena es un palíndromo si es idéntica hacia adelante y hacia atrás. Por ejemplo, "anna", "civic", "level" y "hannah" son todos ejemplos de palabras palindrómicas. Escriba un programa que lea una cadena del usuario y utilice un bucle para determinar si es o no un palíndromo. Mostrar el resultado, incluido un mensaje de salida significativo.
+\
 ![](Programa72(1).png)
+\
 ![](Programa72(2).png)
-
+\
 ## Ejercicio 73: Palindromos de palabras múltiples.
 Hay numerosas frases que son palíndromos cuando se omite el espaciado. Algunos ejemplos incluyen "ir perro", "huir a mí elfo remoto" y "algunos hombres interpretan nueve memorandos", entre muchos otros. Extienda la solución al Ejercicio 72 para que ignore el espaciado mientras determina si una cadena es un palíndromo o una no. Para un desafío adicional, amplíe la solución para que también ignore los signos de puntuación y trate las letras mayúsculas y minúsculas como equivalentes.
+\
 ![](Programa73(1).png)
+\
 ![](Programa73(2).png)
+\
 ## Ejercicio 74: Tabla de multiplicación.
 En este ejercicio creará un programa que muestra una tabla de multiplicación que muestra los productos de todas las combinaciones de enteros de 1 por 1 hasta 10 por 10. La tabla de multiplicación debe incluir una fila de etiquetas en la parte superior de la misma que contenga los números del 1 al 10. También debe incluir etiquetas en el lado izquierdo que consta de los números del 1 al 10.
 Al completar este ejercicio, probablemente le resulte útil poder imprimir un valor sin pasar a la iguiente línea. Esto se puede lograr agregando end"" como el último parámetro a la instrucción print. Por ejemplo, print("A") mostrará la letra A y, a continuación, pasará a la siguiente línea. La instrucción print("A", end-"") mostrará la letra A sin pasar a la siguiente línea, haciendo que la siguiente instrucción print muestre su resultado en la misma línea que la letra A.
+\
 ![](Programa74(1).png)
+\
 ![](Programa74(2).png)
+\
 ## Ejercicio 75: Máximo común divisor.
 El mayor divisor común de dos enteros positivos, n y m, es el número más grande, d, que se divide uniformemente en n y m. Hay varios algoritmos que se pueden utilizar para resolver este problema, incluyendo:
 
@@ -783,8 +866,11 @@ Decrease the value of d by 1
 Report d as the greatest common divisor of n and m
 
 Escriba un programa que lea dos enteros positivos del usuario y utilice este algoritmo para determinar e informar de su mayor divisor común.
+\
 ![](Programa75(1).png)
+\
 ![](Programa75(2).png)
+\
 ## Ejercicio 76: Factores primos.
 La factorización principal de un entero, n, se puede determinar mediante los pasos siguientes:
 Initialize factor to two
@@ -796,12 +882,18 @@ Else
 Increase factor by one
 
 Escriba un programa que lea un entero del usuario. Si el valor introducido por el usuario es menor que 2, el programa debe mostrar un mensaje de error adecuado. De lo contrario, el programa debe mostrar los números primos que se pueden multiplicar juntos para calcular n, con un factor que aparece en cada línea
+\
 ![](Programa76(1).png)
+\
 ![](Programa76(2).png)
+\
 ## Ejercicio 77: Binario a decimal.
 Escriba un programa que convierta un número binario (base 2) en decimal (base 10). El programa debe comenzar leyendo el número binario del usuario como una cadena. A continuación, debe calcular el número decimal equivalente procesando cada dígito en el número binario. Por último, el programa debe mostrar el número decimal equivalente con un mensaje adecuado.
+\
 ![](Programa77(1).png)
+\
 ![](Programa77(2).png)
+\
 ## Ejercicio 78:
 Escriba un programa que convierta un número decimal (base 10) en binario (base 2). Lea el umber decimal del usuario como un entero y, a continuación, utilice el algoritmo de división que se muestra a continuación para realizar la conversión. Cuando se completa el algoritmo, result contiene la representación binaria del número. Muestre el resultado, junto con un mensaje adecuado.
 
@@ -812,40 +904,64 @@ Set r equal to the remainder when q is divided by 2
 Convert r to a string and add it to the beginning of result
 Divide q by 2, discarding any remainder, and store the result back into q
 until q is 0 
+\
 ![](Programa78(1).png)
+\
 ![](Programa78(2).png)
+\
 ## Ejercicio 79: Número entero máximo.
 Este ejercicio examina el proceso de identificación del valor máximo en una colección de enteros. Cada uno de los enteros se seleccionará aleatoriamente entre los números entre 1 y 100. La colección de enteros puede contener valores duplicados y algunos de los enteros entre 1 y 100 pueden no estar presentes. Tómese un momento y piense en cómo manejaría este problema en el papel.
 Muchas personas comprobarían cada entero en secuencia y se preguntarían si el número que están considerando actualmente es mayor que el número más grande que han visto anteriormente. Si es así, entonces olvidan el número máximo anterior y recuerdan el número actual como el nuevo número máximo. Este es un enfoque razonable, y resultará en la respuesta correcta cuando el proceso se realiza cuidadosamente. Si estuviera realizando esta tarea, ¿cuántas veces esperaría tener que actualizar el valor máximo y recordar un nuevo número?
 Si bien podemos responder a la pregunta planteada al final del párrafo anterior utilizando la teoría de la probabilidad, vamos a explorarla simulando la situación. Cree un programa que comience seleccionando un entero aleatorio entre 1 y 100. Guarde este entero como el número máximo encontrado hasta ahora. Una vez seleccionado el entero inicial, genere 99 enteros aleatorios adicionales entre 1 y 100. Compruebe cada entero a medida que se genera para ver si es mayor que el número máximo encontrado hasta ahora. Si es así, el programa debe actualizar el número máximo encontrado y contar el hecho de que ha realizado una actualización. Muestre cada entero después de generarlo. Incluya una notación con los enteros que representan un nuevo máximo.
 Después de haber mostrado 100 enteros, el programa debe mostrar el valor máximo encontrado, junto con el número de veces que el valor máximo se actualizó durante el proceso. La salida parcial para el programa se muestra a continuación, con... representando los enteros restantes que mostrará el programa. Ejecute el programa varias veces. ¿Es el número de actualizaciones realizadas en el valor máximo lo que esperaba?
+\
 ![](Programa79(1).png)
+\
 ![](Programa79(2).png)
+\
 ## Ejercicio 80: Coin Flip Simulation.
 ¿Cuál es el número mínimo de veces que tienes que voltear una moneda antes de que puedas tener tres volteretas consecutivas que resulten en el mismo resultado (ya sea que las tres sean cabezas o las tres son colas)? ¿Cuál es el número máximo de volteretas que podrían ser necesarias? ¿Cuántas volteretas se necesitan en promedio? En este ejercicio exploraremos estas preguntas mediante la creación de un programa que simula varias series de volteretas de monedas.
 Cree un programa que utilice el generador de números aleatorios de Python para simular voltear una moneda varias veces. La moneda simulada debe ser justa, lo que significa que la probabilidad de cabezas es igual a la probabilidad de colas. Su programa debe voltear monedas simuladas hasta que se produzcan 3 cabezas consecutivas de 3 colas consecutivas. Muestre una H cada vez que el resultado sea cabeza, y una T cada vez que el resultado sea de cola, con todos los resultados mostrados en la misma línea. A continuación, muestre el número de volteretas necesarias para alcanzar 3 volteretas consecutivas con el mismo resultado. Cuando se ejecuta el programa debe realizar la simulación 10 veces e informar el número medio de volteretas necesarias. 
+\
 ![](Programa80(1).png)
+\
 ![](Programa80(2).png)
+\
 ## Ejercicio 81: Hipotenusa.
 Escriba una función que tome las longitudes de los dos lados más cortos de un triángulo derecho como sus parámetros. Devolver la hipotenusa del triángulo, calculado con el teorema de Pitágoras, como resultado de la función. Incluya un programa principal que lea las longitudes de los lados más cortos de un triángulo derecho del usuario, utilice la función para calcular la longitud de la hipotenusa y muestre el resultado.
+\
 ![](Programa81(1).png)
+\
 ![](Programa81(2).png)
+\
 ## Ejercicio 82: Tarifa.
 En una jurisdicción en particular, las tarifas de taxi consisten en una tarifa base de $4.00, más $0.25 por cada 140 metros recorridos. Escriba una función que tome la distancia recorrida (en kilómetros) como único parámetro y devuelva la tarifa total como único resultado. Escriba un programa principal que muestre la función.
+\
 ![](Programa82(1).png)
+\
 ![](Programa82(2).png)
+\
 ## Ejercicio 83: Envio.
 Un minorista en línea proporciona envío exprés para muchos de sus artículos a una tarifa de $10.95 por el primer artículo, y $2.95 por cada artículo subsiguiente. Escriba una función que tome el número de elementos del orden como único parámetro. Devolver el cargo de envío para el pedido como resultado de la función. Incluya un programa principal que lea el número de artículos comprados al usuario y muestre el cargo de envío.
+\
 ![](Programa83(1).png)
+\
 ![](Programa83(2).png)
+\
 ## Ejercicio 84: Convertir un numero entero a numero cardinal.
 Escriba una función que tome tres números como parámetros y devuelva el valor mediano de esos parámetros como resultado. Incluya un programa principal que lea tres valores del usuario y muestre su mediana.
+\
 ![](Programa84(1).png)
+\
 ![](Programa84(2).png)
+\
 ## Ejercicio 85: Mediana de tres valores.
 Palabras como first, second y third se conocen como números ordinales. En este ejercicio, escribirá una función que toma un entero como único parámetro y devuelve una cadena que contiene el número ordinal de inglés adecuado como único resultado. La función debe controlar los enteros entre 1 y 12 (incluido). Debe devolver una cadena vacía si se proporciona un valor fuera de este intervalo como parámetro. Incluya un programa principal que muestre su función mostrando cada entero del 1 al 12 y su número ordinal. El programa principal solo debe ejecutarse cuando el archivo no se haya importado a otro programa. 
+\
 ![](Programa85(1).png)
+\
 ![](Programa85(2).png)
+\
 ## Ejercicio 86: Los doce días de navidad.
 Los Doce Días de Navidad es una canción repetitiva que describe una lista cada vez más larga de regalos enviados al verdadero amor en cada uno de los 12 días. El primer día se envía un solo regalo. Se agrega un nuevo regalo a la colección en cada día adicional y, a continuación, se envía la colección completa. Los tres primeros versículos de la canción se muestran a continuación. Las letras completas están disponibles en Internet.
 
@@ -865,58 +981,96 @@ Two turtle doves,
 And a partridge in a pear tree.
 
 Tu tarea es escribir un programa que muestre la letra completa de Los Doce Días de Navidad. Escriba una función que tome el número de versículo como único parámetro y muestre el verso especificado de la canción. A continuación, llame a esa función 12 veces con enteros que aumentan de 1 a 12. Cada elemento que se envía al destinatario de la canción solo debe aparecer una vez en el programa, con la posible excepción de la perdiz. Puede parecer dos veces si eso te ayuda a manejar la diferencia entre "Una perdiz en un peral" en el primer versículo y "Y una perdiz en un pera" en los versículos subsiguientes. Importe su solución al Ejercicio 85 para ayudarle a completar este ejercicio.
+\
 ![](Programa86(1).png)
+\
 ![](Programa86(2).png)
+\
 ## Ejercicio 87: Centrar una cadena en la terminal.
 Write a function that takes a string of characters as its first parameter, and the width of the terminal in characters as its second parameter. Your function should return a new string that consists of the original string and the correct number of leading spaces so that the original string will appear centered within the provided width when it is printed. Do not add any characters to the end of the string. Include a main program that demonstrates your function. 
+\
 ![](Programa87(1).png)
+\
 ![](Programa87(2).png)
+\
 ## Ejercicio 88: ¿Es un triángulo válido?.
 Si tiene3 pajitas, posiblemente de diferentes longitudes, puede o no ser posible establecerlas para que formen un triángulo cuando sus extremos se toquen. Por ejemplo, si todas las pajitas tienen una longitud de 6 pulgadas. entonces uno puede construir fácilmente un triángulo equilátero utilizándolos. Sin embargo, si una pajita es de 6 pulgadas. largo, mientras que los otros dos son cada uno de sólo 2 pulgadas. largo, entonces no se puede formar un triángulo. En general, si una longitud es mayor o igual que la suma de las otras dos, entonces las longitudes no se pueden utilizar para formar un triángulo. De lo contrario, pueden formar un triángulo.
  Escriba una función que determine si tres longitudes pueden formar o no un triángulo. La función tomará 3 parámetros y devolverá un resultado booleano. Además, escribir un programa que lea 3 longitudes del usuario y demuestre el comportamiento de esta función
+ \
 ![](Programa88(1).png)
+\
 ![](Programa88(2).png)
+\
 ## Ejercicio 89: Capitalizarlo.
 Muchas personas no usan las letras mayúsculas correctamente, especialmente cuando escriben en dispositivos pequeños como teléfonos inteligentes. En este ejercicio, escribirá una función que escriba en mayúsculas los caracteres adecuados en una cadena. Una "i" minúscula debe reemplazarse por una "I" mayúscula si está precedida y seguida de un espacio. El primer carácter de la cadena también debe estar en mayúsculas, así como el primer carácter no espacial después de un ".", "!" o "?". Por ejemplo, si la función se proporciona con la cadena "¿a qué hora tengo que estar allí? ¿cuál es la dirección?" entonces debe devolver la cadena "¿A qué hora tengo que estar allí? ¿Cuál es la dirección?". Incluya un programa principal que lea una cadena del usuario, la escriba en mayúsculas mediante la función y muestre el resultado.
+\
 ![](Programa89(1).png)
+\
 ![](Programa89(2).png)
+\
 ## Ejercicio 90: ¿Una cadena representa un número entero?.
 En este ejercicio escribirá una función denominada integer que determina si los caracteres de una cadena representan o no un entero válido. Al determinar si una cadena representa un entero, debe omitir cualquier espacio en blanco inicial o final. Una vez que se omite este espacio en blanco, una cadena representa un entero si su longitud es al menos 1 y solo contiene dígitos, o si su primer carácter es + o - y el primer carácter va seguido de uno o más caracteres, todos los cuales son dígitos. Escriba un programa principal que lea una cadena del usuario e informe si representa o no un entero. Asegúrese de que el programa principal no se ejecutará si el archivo que contiene la solución se importa a otro programa.
+\
 ![](Programa90(1).png)
+\
 ![](Programa90(2).png)
-
+\
 ## Ejercicio 91: Precedencia del operador.
 Escriba una función denominada precedence que devuelva un entero que represente la prioridad de un operador matemático. Una cadena que contiene el operador se pasará a la función como su único parámetro. La función debe devolver 1 para + y -, 2 para * y /, y 3 para . Si la cadena pasada a la función no es uno de estos operadores, la función debe devolver -1. Incluya un programa principal que lea un operador del usuario y muestre la prioridad del operador o un mensaje de error que indique que la entrada no era un operador. El programa principal solo debe ejecutarse cuando el archivo que contiene la solución no se haya importado a otro programa.
+\
 ![](Programa91(1).png)
+\
 ![](Programa91(2).png)
+\
 ## Ejercicio 92: ¿Es un número primo?.
 Un número primo es un entero mayor que 1 que sólo es divisible por uno y sí mismo. Escriba una función que determine si su parámetro es primo, devolviendo True si lo es y False en caso contrario. Escriba un programa principal que lea un entero del usuario y muestre un mensaje que indique si es primo o no. Asegúrese de que el programa principal no se ejecutará si el archivo que contiene la solución se importa a otro programa.
+\
 ![](Programa92(1).png)
+\
 ![](Programa92(2).png)
+\
 ## Ejercicio 93: Próximo siguiente
 En este ejercicio creará una función denominada next Prime que encuentra y devuelve el primer número primo mayor que algún entero, n. la función como su único parámetro. Incluya un programa principal que lea un entero del usuario y muestre el primer número primo mayor que el valor introducido. Importe y use su solución para el Ejercicio 92 mientras completa este ejercicio.
+\
 ![](Programa93(1).png)
+\
 ![](Programa93(2).png)
+\
 ## Ejercicio 94: Random Password.
 Escriba una función que genere una contraseña aleatoria. La contraseña debe tener una longitud aleatoria de entre 7 y 10 caracteres. Cada carácter debe seleccionarse aleatoriamente entre las posiciones 33 a 126 de la tabla ASCII. La función no tomará ningún parámetro. Devolverá la contraseña generada aleatoriamente como único resultado. Muestre la contraseña generada aleatoriamente en el programa principal de su archivo. El programa principal solo debe ejecutarse cuando la solución no se haya importado a otro archivo.
+\
 ![](Programa94(1).png)
+\
 ![](Programa94(2).png)
+\
 ## Ejercicio 95: Matrícula Aleatoria.
 En una jurisdicción en particular, las matrículas más antiguas consisten en tres letras seguidas de tres números. Cuando se habían utilizado todas las matrículas que seguían ese patrón, el formato se cambió a cuatro números seguidos de tres letras. Escriba una función que genere una matrícula aleatoria. La función debe tener aproximadamente iguales probabilidades de generar una secuencia de caracteres para una matrícula antigua o una nueva matrícula. Escriba un programa principal que llame a su función y muestre la matrícula generada aleatoriamente.
+\
 ![](Programa95(1).png)
+\
 ![](Programa95(2).png)
+\
 ## Ejercicio 96: Verificar una contraseña.
 En este ejercicio escribirá una función que determina si una contraseña es buena o no. Definiremos una buena contraseña para que sea una que tenga al menos 8 caracteres y contenga al menos una letra mayúscula, al menos una letra minúscula y al menos un número. La función debe devolver true si la contraseña que se le ha pasado como único parámetro es buena. De lo contrario, debe devolver false. Incluya un programa principal que lea una contraseña del usuario e informe si es o no buena. Asegúrese de que el programa principal solo se ejecuta cuando la solución no se ha importado a otro archivo.
+\
 ![](Programa96(1).png)
+\
 ![](Programa96(2).png)
+\
 ## Ejercicio 97: Buena contraseña aleatoria.
 Usando sus soluciones a los Ejercicios 94 y 96, escriba un programa que genere una buena contraseña aleatoria y la muestre. Cuente y muestre el número de intentos que se necesitaron antes de que se generara una buena contraseña. Estructura la solución para que importe las funciones que escribió anteriormente y, a continuación, las llame desde una función denominada main en el archivo que cree para este ejercicio.
+\
 ![](Programa97(1).png)
+\
 ![](Programa97(2).png)
+\
 ## Ejercicio 98: Dígitos hexadecimales y decimales.
 Escriba dos funciones, hex2int e int2hex, que se conviertan entre dígitos hexadecimales (0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E y F) y enteros base 10. La función hex2int es responsable de convertir una cadena que contiene un único dígito hexadecimal en un entero base 10, mientras que la función int2hex es responsable de convertir un entero entre 0 y 15 en un solo dígito hexadecimal. Cada función tomará el valor para convertir como su único parámetro y devolverá el valor convertido como único resultado de la función. Asegúrese de que la función hex2int funciona correctamente tanto en mayúsculas como en minúsculas. Las funciones deben finalizar el programa con un mensaje de error significativo si se proporciona un parámetro no válido.
+\
 ![](Programa98(1).png)
+\
 ![](Programa98(2).png)
+\
 ## Ejercicio 99: Conversiones de bases arbitrarias.
 Escribir un programa que permita al usuario convertir un número de una base a otra. El programa debe admitir bases entre 2 y 16 tanto para el número de entrada como para el número de resultado. Si el usuario elige una base fuera de este rango, entonces se debe mostrar un mensaje de error adecuado y el programa debe salir. Divida el programa en varias funciones, incluida una función que convierte de una base arbitraria a la base 10, una función que convierte de base 10 a una base arbitraria, y un programa principal que lee las bases y el número de entrada del usuario. Puede resultarle útil que sus soluciones a los Ejercicios 77, 78 y 98 al completar este ejercicio.
 ## Ejercicio 100: Días en un mes.
