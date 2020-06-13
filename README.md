@@ -713,12 +713,15 @@ En esete ejecicio haremos un programa que nos ayude a decir si un año es bisies
 \
 En la ejecucion del programa nos dira que ingresemos el año y nos arrojara si el año es o no bisiesto.
 ## Ejercicio 58: Día siguiente.
-Writeaprogramthatreadsadatefromtheuserandcomputesitsimmediatesuccessor. Por ejemplo, si el usuario escribe valores que representan 2013-11-18, el programa debe mostrar un mensaje que indique que el día inmediatamente después de 2013-11-18 es 2013-11-19. Si el usuario introduce valores que representan 2013-11-30, el programa debe indicar que el día siguiente es 2013-12-01. Si el usuario introduce valores que representan 2013-12-31, el programa debe indicar que el día siguiente es 2014-01-01. La fecha se introducirá en forma numérica con tres instrucciones de entrada separadas; uno para el año, uno para el mes, y otro para el día. Asegúrese de que el programa funciona correctamente durante los años bisiestos.
+Escriba un programa que lea la fecha del uso y las computadoras de su éxito inmediato. Por ejemplo, si el usuario escribe valores que representan 2013-11-18, el programa debe mostrar un mensaje que indique que el día inmediatamente después de 2013-11-18 es 2013-11-19. Si el usuario introduce valores que representan 2013-11-30, el programa debe indicar que el día siguiente es 2013-12-01. Si el usuario introduce valores que representan 2013-12-31, el programa debe indicar que el día siguiente es 2014-01-01. La fecha se introducirá en forma numérica con tres instrucciones de entrada separadas; uno para el año, uno para el mes, y otro para el día. Asegúrese de que el programa funciona correctamente durante los años bisiestos.
 \
 ![](Programa58(1).png)
-\
-
 ![](Programa58(2).png)
+\
+En este ejercici, haremos un programa que nos ayude a decir el dia siguiente al que el usuario alla ingresado, el ususario ingresara un año, mes y dia y en base a ellos elprograma nos diara que dia sigue.
+![](Programa58(3).png)
+\
+Vemos que en la ejecucuion el programa nos pide ingresar los tres requicitos de forma numerica y automaticamente nos arroja el dia sigueinte.
 ## Ejercicio 59: ¿Es válida una matrícula?.
 En una jurisdicción en particular, las matrículas más antiguas consisten en tres letras mayúsculas seguidas de tres números. Cuando se habían utilizado todas las matrículas que seguían ese patrón, el formato se cambiaba a cuatro números seguidos de tres letras mayúsculas. Escriba un programa que comience leyendo una cadena de caracteres del usuario. A continuación, el programa debe mostrar un mensaje que indique si los caracteres son válidos para una matrícula de estilo más antiguo o una placa de matrícula de estilo más reciente. El programa debe mostrar un mensaje adecuado si la cadena introducida por el usuario no es válida para ningún estilo de matrícula.
 \
@@ -744,29 +747,42 @@ En este ejercicio creará un programa que calcula el promedio de una colección 
 \
 ![](Programa61(1).png)
 \
+En este ejercicio haremos un programa que nos ayude a calcular el promedio de ciertos valores ingresados por el usuario con ayuda con la sentencia while nos ayuda a decir cuando el pare el programa en este caso cuando el usuario ingrese el valor de 0 el programa parara. 
 ![](Programa61(2).png)
 \
+En la ejecicion del programa no pedira ingresar el valor y no para el programa hasta que nosotros ingresemos el valor 0, al finalizar el programa te dira cual fue la sumario y el promedio del la suma.
 ## Ejercicio 62: Tabla de descuento.
 Un minorista en particular está teniendo un 60 por ciento de descuento en la venta en una variedad de productos descontinuados. El minorista desea ayudar a sus clientes a determinar el precio reducido de la mercancía al tener una tabla de descuentos impresa en el estante que muestra los precios originales y los precios después de que se haya aplicado el descuento. Escriba un programa que utilice un bucle para generar esta tabla, mostrando el precio original, el monto del descuento y el nuevo precio para compras de $4.95, $9.95, $14.95, $19.95 y $24.95. Asegúrese de que los importes de descuento y los nuevos precios se redondean a 2 decimales cuando se muestren
 \
 ![](Programa62(1).png)
 \
+En este ejercicio haremos un programa que nos muestre una especie de tabla en donde se indique el percio original, descuento y el precio total con decuento.El usuario no ingresara nada.
 ![](Programa62(2).png)
 \
+Al momento de correr el programa a base de los datos dados en el problema lo unico que aparecera la tabla de descuentos y precios originales.
 ## Ejercicio 63: Tabla de conversión de temperatura.
 Escriba un programa que muestre una tabla de conversión de temperatura para grados Celsius y grados Fahrenheit. La tabla debe incluir filas para todas las temperaturas entre 0 y 100 grados Celsius que son múltiplos de 10 grados Celsius. Incluya encabezados apropiados en las columnas. La fórmula para convertir entre grados Celsius y grados Fahrenheit se puede encontrar en Internet
 \
 ![](Programa63(1).png)
 \
-![](Programa63(2).png)
+En este ejercicio haremos un programa que nos muestra los grados celsisus desde 0 a 100 y de lado derecho nos mostrara a su valor en grados Fahrenheit este programa se ejecutara solo sin que el usuario ingrese algo.
 \
+![](Programa63(2).png)
+![](Programa63(3).png)
+![](Programa63(4).png)
+![](Programa63(5).png)
+![](Programa63(6).png)
+\
+Como obsevamos en la ejecucion no nos pide inresar nada automaticamente el programa nos dara elresultado.
 ## Ejercicio 64: No más centavos.
 El 4 de febrero de 2013 fue el último día en que los centavos fueron distribuidos por la Real Casa de la Moneda Canadiense. Ahora que los centavos han sido eliminados, los minoristas deben ajustar los totales para que sean múltiplos de 5 centavos cuando se paguen con efectivo (las transacciones con tarjeta de crédito y tarjeta de débito se siguen cobrando al centavo). Mientras que los minoristas tienen cierta libertad en la forma en que hacen esto, la mayoría optan por redondear al níquel más cercano. Escriba un programa que lea los precios del usuario hasta que se introduzca una línea en blanco. Visualice el coste total de todos los artículos introducidos en una línea, seguido del importe adeudado si el cliente paga con efectivo en una segunda línea. El importe adeudado por un pago en efectivo debe redondearse al níquel más cercano. Una manera de calcular el monto del pago en efectivo es comenzar determinando cuántos centavos se necesitarían para pagar el total. A continuación, calcule el resto cuando este número de centavos se divide por 5. Por último, ajuste el total hacia abajo si el resto es menor que 2,5. De lo contrario, ajuste el total hacia arriba.
 \
 ![](Programa64(1).png)
 \
+En este ejercicio haremos un programa que nos ayude a partir de valores ingresados por el usuario hacer un redonde de centavamos el programa hara una sumatoria el usuario terminara de ingresr valores cunado no escriba nada en la linea el programa nos idra cunato sera sin redondeo y despues nos dira cunado sera redondeando lo centavamos.
 ![](Programa64(2).png)
 \
+Al ejecutar el programa nos pedira ingresar los valores y automaticamentes nos dira cuanto debemos de pagar.
 ## Ejercicio 65: Calcular el perímetro de un polígono.
 Escriba un programa que calcule el perímetro de un polígono. Comience leyendo los valores x e y para el primer punto en el perímetro del polígono del usuario. A continuación, continúe leyendo pares de valores x e y hasta que el usuario escriba una línea en blanco para la coordenada x. Cada vez que lea una coordenada adicional, debe calcular la distancia hasta el punto anterior y agregarla al perímetro. Cuando se introduce una línea en blanco para la coordenada X, el programa debe agregar la distancia desde el último punto hasta el primer punto hasta el perímetro. Entonces debe mostrar el perímetro total. La entrada y salida de muestra se muestra a continuación, con la entrada del usuario mostrada en negrita:
 Enter the x part of the coordinate: 0
